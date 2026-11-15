@@ -1,0 +1,10 @@
+/* Small additions on top of the original PerfectCV theme */
+#logoline h1 a.homelink { color: inherit; text-decoration: none; }
+.contact_box { padding: 10px 30px 30px; color: #707070; font-size: 15px; line-height: 1.6; }
+.contact_box .contact_link a { font-size: 15px; }
+.contact_box p { margin: 0 0 12px; }
+.contact_box .contact_button { display: inline-block; background: #c21900; color: #fff; padding: 10px 24px; text-decoration: none; }
+.contact_box .contact_button:hover { background: #747474; color: #fff; }
+.par_el iframe { max-width: 100%; }
+.par_el img { max-width: 100%; height: auto; }
+body.custom-background { background-image: url("../perfectcv/img/body-bg.png"); background-repeat: repeat; }

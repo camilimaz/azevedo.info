@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="{{ '/assets/uploads/2014/09/site-carlos-cores-022.png' | relative_url }}">
+{% seo %}
+{% feed_meta %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,700|Droid+Sans:400,700">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/js/jquery.bxslider/jquery.bxslider.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/css/magnific-popup.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/font/fontello/css/fontello.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/bootstrap/css/bootstrap.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/css/styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv/css/custom-styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/perfectcv-child/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery-migrate.min.js' | relative_url }}"></script>
+</head>
+<body class="custom-background">
+<div class="wrapper">
+	<div class="container print" id="about_me">
+
+		<div class="scrollbutton"><a href="#" class="scrollup">Scroll</a></div>
+
+		<!-- NAVIGATION -->
+		<nav id="site_nav" class="site_nav"><ul class="menu">
+		{%- for item in site.data.navigation %}
+			{%- assign target = item.url %}
+			{%- if item.url contains '#' and page.url != '/' %}{% assign target = '/' | append: item.url %}{% endif %}
+			<li class="menu-item{% if forloop.first and page.url == '/' %} active{% endif %}{% if page.layout == 'post' or page.url == '/blog/' %}{% if item.url == '/blog/' %} active{% endif %}{% endif %}"><a href="{{ target | relative_url }}">{{ item.title }}</a></li>
+		{%- endfor %}
+		</ul></nav>
+		<!-- end NAVIGATION -->
+
+		<div id="aftermenuspace"></div>
+
+		<header class="site_header centerise borderbtn">
+			<div id="logoline"><h1><a href="{{ '/' | relative_url }}" class="homelink">{{ site.data.profile.name }}</a></h1></div>
+			<h2>{{ site.data.profile.tagline }}</h2>
+			<h3></h3>
+		</header>
+
+		<div class="container-fluid page">
+{{ content }}
+		</div>
+
+		<footer class="row-fluid siteFooter">
+			<div id="contact">
+				<aside class="span3 aside_el">
+					<h2>Contact me</h2>
+					<h5>Send me a message!</h5>
+				</aside>
+				<div class="span9 borderleft">
+					<div class="contact_box">
+						<p>The best way to reach me is by email:</p>
+						<p><a class="contact_button" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
+						{%- for l in site.data.profile.links %}
+						<p class="contact_link"><a href="{{ l.url }}">{{ l.label | capitalize }}</a></p>
+						{%- endfor %}
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+<script>
+var pcvData = {"SITE_URL":"{{ site.url }}","pcv_wpurl":"{{ site.url }}","line_width":"0","words_more_check":"true","my_picture_display":"false","contact_info_display":"false","my_expertise_display":"true","contact_info_rss_check":"true","contact_info_print_check":"true","smaller_email_font":"true","hide_phone":"false","hide_address":"false","hide_email":"false","boxoption":"box_fewsmall","pcvBoxColor":"#9b0500","pcvMenuColor":"#af1e01","pcvAcMenuColor":"#747474","pcvTitleColor":"#464646","pcvSubtitleColor":"#616161","pcvDescColor":"#909193","pcvContColor":"#707070","pcvSecSubtitleColor":"#c21900","pcvSecContColor":"#8c8c8c","pcvConInfoColor":"#707070","pcvConInfoIcoColor":"#222222","pcvProgColor":"#f2c345","pcvProgBackColor":"#cfcfcf","pcvProgBorderColor":"#aaa","pcvProgShadColor":"#bbb","pcvLineColor":"#d4d4d4","pcvGaSuColor":"#a6abae","pcvBlogTitleColor":"#00b2f0","pcvPostsBlogTitleColor":"#0088cc","pcvReadmoreColor":"#00B2F0","pcvButtonColor":"#c21900","pcvButtonHoverColor":"#747474","pcvPlaceholderColor":"#464646","pcvLinkColor":"#c21900","pcvDisplaySoc":"1"};
+</script>
+<script src="{{ '/assets/perfectcv/js/jquery.fitvids.js' | relative_url }}"></script>
+<script src="{{ '/assets/perfectcv/js/jquery.magnific-popup.js' | relative_url }}"></script>
+<script src="{{ '/assets/perfectcv/js/jquery.bxslider/jquery.bxslider.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/perfectcv/js/fastclick.js' | relative_url }}"></script>
+<script src="{{ '/assets/perfectcv/js/custom.js' | relative_url }}"></script>
+<script src="{{ '/assets/perfectcv/js/navfix.js' | relative_url }}"></script>
+<script>
+// Open links to other websites in a new tab, as the old site did.
+document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+  if (a.hostname !== location.hostname) { a.target = '_blank'; a.rel = 'noopener'; }
+});
+</script>
+</body>
+</html>

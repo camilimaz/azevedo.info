@@ -1,0 +1,33 @@
+title: Carlos L. Azevedo
+description: Carlos Lima Azevedo - Associate Professor, DTU. Research on modelling and simulation of human mobility and smart mobility services.
+url: https://azevedo.info
+baseurl: ""
+lang: en
+
+markdown: kramdown
+permalink: /:title/
+
+collections:
+  sections:
+    output: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

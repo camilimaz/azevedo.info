@@ -1,0 +1,668 @@
+/*
+Theme Name: PerfectCV
+Theme URI: http://pixeldizajn.com/perfectcvwp
+Author: PixelDizajn
+Author URI: http://pixeldizajn.com/
+Description: PerfectCV is a CV/Portfolio/Blog theme for Wordpress
+License:
+License URI:
+Template: perfectcv
+Version: 1.3.3
+Tags: gray, white
+*/
+
+@import url("../perfectcv/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.site_header h1 {
+  color:#464646;
+  display:inline-block;
+  font-family:Arvo, serif;
+  font-size:4em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:0.66666666em;
+  padding-left:5px;
+  padding-right:5px;
+  z-index:2;
+}
+
+.site_header h2 {
+  color:#616161;
+  font-family:Arvo, serif;
+  font-size:1.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin:4px 0 25px;
+}
+
+.par_el h2 {
+  font-family:Arvo, serif;
+  font-size:1.5em;
+  font-weight:normal;
+  line-height:0.3;
+  margin-top:0;
+}
+
+.par_el h3 {
+  color:#8E8E8E;
+  font-family:'Droid Sans', sans-serif;
+  font-size:1.4em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+
+.period {
+  background-color:white;
+}
+
+.period {
+  color:#C21900;
+  font-family:'Droid Sans', sans-serif;
+  font-size:1.8em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  line-height:normal;
+  max-width:120px;
+  padding-left:5px;
+  padding-right:5px;
+  position:absolute;
+  top:0;
+}
+
+a {
+  color:#a50000;
+  text-decoration:none;
+}
+
+a:hover { 
+  color:#c21900;
+  text-decoration:underline;
+}
+
+.aside_el h2 {
+  color:#464646;
+  font-family:Arvo, serif;
+  font-size:2.2em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.25em;
+  margin-bottom:3px;
+  margin-top:0;
+}
+
+
+/*-----------------------------*\
+	$RESPONSIVE
+\*-----------------------------*/
+@media only screen and (max-width: 1950px) {
+	.container {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.scrollbutton {
+		display: block;
+	}
+}
+@media only screen and (max-width: 870px) {
+	.site_header h1:before,
+	.site_header h1:after {
+		width: 28%;
+	}
+	.cont_info {
+		padding-left: 0px;
+	}
+	.site_header h3 {
+		font: 2em 'Droid Sans', sans-serif; /* 25px/10 */
+	}
+	.upbtnwrapp {
+		display: block;
+	}
+	.aside_el > h5 > a  {
+		display: none;
+	}
+}
+@media only screen and (max-width: 785px) {
+	.site_nav li {
+		padding: 0 12px;
+	}
+	.site_nav a {
+		font-size: 1.35em; /* 16px/10 */
+		line-height: 6.538461538461538em;  /* 85px/14px */
+	}
+}
+@media only screen and (max-width: 767px) {
+	#contact {
+		padding-top: 20px;
+	}
+	.site_nav li {
+		padding: 0 12px;
+	}
+	.site_nav a {
+		font-size: 1.3em; /* 16px/10 */
+		line-height: 6.538461538461538em;  /* 85px/14px */
+	}
+	.borderleft {
+		border-left: none;
+	}
+	.site_header {
+		padding-top: 17px;
+		padding-bottom: 25px;
+	}
+	.site_header h1 {
+		font: 3em 'Arvo', serif; /* 60px/10 */
+		line-height: 0.86666666em; /* 40px/60px */
+		font-weight: bold;
+		color: #464646;
+	}
+	.site_header h2 {
+		font: 1.9em 'Arvo', serif;
+	}
+	.site_header h3 {
+		font: 1.7em 'Droid Sans', sans-serif;
+		line-height: 1.2em;
+	}
+	.aside_el {
+		text-align: center;
+		padding-right: 0px;
+		margin-bottom: 30px;
+	}
+	.aside_el h5 {
+		margin-top: 15px;
+	}
+	.single_el, .par_el {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.single_el img, .par_el img {
+		max-width: 100%;
+	}
+	/* contact info */
+	.cont_info {
+		padding-left: 0px;
+		margin-top: 40px;
+	}
+	.soc {
+		width: 200px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.info {
+		padding-top: 20px;
+		width: 200px;
+		margin: 0 auto;
+		overflow: hidden;
+		float: none;
+	}
+	.skill_level {
+		margin-top: 30px;
+		padding: 0 18px 0 14px;
+	}
+	.about_me {
+		margin-top: 35px;
+	}
+	.my_expertise {
+		margin-top: 35px;
+	}
+	.experience {
+		margin-top: 35px;
+	}
+	.education {
+		margin-top: 35px;
+	}
+	.portfolio {
+		margin-top: 35px;
+	}
+	.blog {
+		margin-top: 35px;
+	}
+	#respond {
+		margin-right: 35px;
+		margin-left: 13px;
+	}
+	footer {
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+	.comment_form {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 630px) {
+	.site_nav li.active {
+		border-top: none;
+	}
+	.site_nav {
+		height: 100%;
+		padding-top: 10px;
+	}
+	.site_nav ul {
+		display: block;
+	}
+	.site_nav li {
+		display: block;
+		border-top: none;
+		margin-left: 0;
+		padding: 0;
+	}
+	.site_nav a {
+		font-size: 1.5em; /* 15px/10 */
+		line-height: 1.7em;  /* 130px/15px */
+		display: block;
+		top: 0;
+	}
+	.site_header {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	.site_header h1 {
+		font: 3em 'Arvo', serif; /* 60px/10 */
+		line-height: 0.66666666em; /* 40px/60px */
+		font-weight: bold;
+		color: #464646;
+	}
+	.site_header h2 {
+		font: 1.7em 'Arvo', serif; /* 21px/10 */
+	}
+	.site_header h3 {
+		font: 1.6em 'Droid Sans', sans-serif; /* 25px/10 */
+		line-height: 1.2em; /* 30px/25px */
+		margin-top: -15px;
+	}
+	.aside_el  h2 {
+		font: 2em 'Arvo', serif; /* 29px/10 */
+		line-height: 0.8em;
+		margin-bottom: -10px;
+	}
+	.aside_el  h5 {
+		font: 1.35em 'Droid Sans', sans-serif; /* 14px/10 */
+		line-height: 1.1em; /* 14px/14px */
+	}
+	.cont_info {
+		margin-top: 25px;
+	}
+	.about_me {
+		margin-top: 20px;
+	}
+	.my_expertise {
+		margin-top: 25px;
+	}
+	.experience, .education, .portfolio {
+		margin-top: 20px;
+	}	
+	.single_el h2, .par_el h2 {
+		font: 1.9em 'Arvo',serif;
+		margin-top: 3px;
+		padding-top: 2px;
+		max-width: 77%;
+	}
+	.single_el h3, .par_el h3 {
+		font: 1.4em/0.535714em 'Droid Sans',sans-serif;
+		padding-bottom: 5px;
+	}
+	.comment-form-author , .comment-form-email {
+		width: 44%;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.cont_info {
+		margin-top: 20px;
+	}
+	.info {
+		padding-top: 10px;
+	}
+	.info ul li {
+		padding-bottom: 10px;
+	}
+	.aside_el {
+		margin-bottom: 20px;
+	}
+	/* galleryContainer */
+	.galleryContainer {
+		width: 95%;
+	}
+	/* gallery */
+	.galleryItem {
+		width: 43.2%;
+		margin:  2% 3% 5px 3%;
+	}
+	.bigspacing {
+		padding-left: 0px;
+	}
+	.period {
+		font: 600 1.4em 'Droid Sans',sans-serif;
+		right: 20px;
+	}
+	.comment-form-author , .comment-form-email {
+		width: 43%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#contact {
+		padding-top: 15px;
+	}
+	.site_header {
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+	.site_header h1 {
+		font: bold 2.6em 'Arvo',serif;
+	}
+	.site_header h2 {
+		font: 1.5em 'Arvo', serif;
+	}
+	.site_header h3 {
+		font: 1.3em 'Droid Sans', sans-serif;
+		line-height: 1.2em; /* 30px/25px */
+		margin-top: -15px;
+	}
+	.aside_el  h2 {
+		font: 1.8em 'Arvo', serif; /* 29px/10 */
+		line-height: 0.8em;
+		margin-bottom: -10px;
+	}
+	.aside_el  h5 {
+		font: 1.5em 'Droid Sans', sans-serif; /* 14px/10 */
+		line-height: 1.1em; /* 14px/14px */
+	}
+	.single_el p, .par_el p {
+		font: 1.3em 'Droid Sans', sans-serif; /* 14px/10 */
+		color: #8e8d8d;
+		text-align: left;
+	}
+	.single_el h2, .par_el h2 {
+		font: 1.6em 'Arvo',serif;
+		margin-top: 3px;
+		padding-top: 2px;
+		max-width: 63%;
+	}
+	.single_el h3, .par_el h3 {
+		font: 1.3em 'Droid Sans',sans-serif;
+		margin-top: -10px;
+	}
+	.period {
+		font: 600 1.3em 'Droid Sans',sans-serif;
+	}
+	.galleryItem h3 {
+		font: 1.4em 'Droid Sans', sans-serif;
+		line-height: 1em;
+		padding-top: 5px;
+	}
+	.galleryItem p {
+		font: 1.25em 'Droid Sans', sans-serif;
+		line-height: 1em;
+		margin-top: -8px;
+	}
+	.skill_level h4 {
+		font: 1.3em 'Droid Sans', sans-serif; /* 14px/10 */
+		line-height: 1.071428em; /* 15px/14px */
+		margin-top: -10px;
+	}
+	.page {
+		padding-bottom: 40px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	/* galleryContainer */
+	.galleryContainer {
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: -10px;
+		text-align: center;
+	}
+	/* gallery */
+	.galleryItem {
+		width: 91.3%;
+		margin:  20px 3% 5px 3%;
+		-webkit-transition: color 0.5s ease;
+		float: none;
+	}
+	.galleryItem h3 {
+		font: 1.5em 'Droid Sans', sans-serif; /* 15px/10 */
+		line-height: 1em; /* 15px/15px */
+		color: #4f6676;
+		padding-top: 5px;
+		-webkit-transition: color 0.5s ease;
+	}
+	.galleryItem p {
+		font: 1.3em 'Droid Sans', sans-serif; /* 13px/10 */
+		line-height: 1em; /* 15px/15px */
+		color: #a6abae;
+		margin-top: -8px;
+		-webkit-transition: color 0.5s ease;
+	}
+	.comment_form {
+		padding: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	.comment-form-author , .comment-form-email {
+		width: 41%;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.site_header h1 {
+		font: bold 2em 'Arvo',serif;
+	}
+	.period {
+		font-size: 1.1em;
+	}
+	.single_el h2, .par_el h2 {
+		font: 1.4em 'Arvo',serif;
+		margin-top: 3px;
+		padding-top: 2px;
+	}
+	.comment-form-author , .comment-form-email {
+		width: 38%;
+	}
+}
+@media only screen and (max-width: 280px) {
+	.period { position: static; }
+}
+
+/* Retina screens patterns */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	body {
+		background: #b9babe url("../img/body-bg@2x.png") repeat;
+		background-size: 77px 77px;
+	} 
+	.container, .site_nav {
+		background: #ffffff url("../img/container-bg@2x.png");
+		background-size: 300px 300px;
+	}
+	footer {
+		background: #f0f4f2 url("../img/contact-bg@2x.png") repeat;
+		background-size: 100px 100px;
+	}
+	.comment_form {
+		background: #dfdcdf url("../img/form-bg@2x.png") repeat;
+		background-size: 12px 12px;
+	}
+}
+
+/*-----------------------------*\
+	$PRINT
+\*-----------------------------*/
+@media print {
+
+	/* <Global> */
+	a[href]:after {
+		content: none !important;
+	}
+
+	a[href^="mailto"]:after {
+		content: "";
+	}
+
+	.page {
+		padding-bottom: 0px;
+	}
+	.container-fluid, .row-fluid {
+		margin: 0; padding: 0;
+	}
+	.borderleft {
+		border: none;
+	}
+
+	/* Hide */
+	.site_nav, .siteFooter, .soc, #blog, #portfolio,
+	.site_header h1:before, .site_header h1:after,
+	.aside_el h5, .skill_level h4, .progressbar, iframe  {
+		display: none !important;
+	}
+
+	/* [Aside] */
+	.aside_el h2 {
+		font: 2.1em 'Arvo', serif;
+		line-height: 1.25em;
+		margin-bottom: 20px;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	/* [Paragraphs] */
+	.single_el, .par_el {
+		padding-left: 0; /* 30px; */
+		padding-right: 0; /* 10px; */
+	}
+	.single_el p, .par_el p {
+		font-size: 1.2em;
+		line-height: 1.8em;
+		text-align: left;
+	}
+
+	/* <Body> */
+	.container {
+		width: 100%;
+		margin: 0; padding: 0;
+		background: none;
+	}
+
+	/* <Header> */
+	.site_header {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.site_header h1 {
+		font: 2.7em 'Arvo', serif;
+		line-height: 0.66666666em;
+		font-weight: bold;
+	}
+	.site_header h2 {
+		font: 1.5em 'Arvo', serif;
+		margin: -4px 0 20px 0;
+	}
+	.site_header h3 {
+		font: 1.4em 'Droid Sans', sans-serif;
+		line-height: 1.5em;
+		margin-right: 8%;
+		margin-left: 8%;
+	}
+
+	/* <About me> */
+	.about_me {
+		margin-top: 30px;
+	}
+	.circle {
+		width: 70px;
+		height: 70px;
+	}
+	.circle img {
+		width: 70px;
+		height: 70px;
+	}
+	.about_me article p:last-child {
+		margin-bottom: -3px;
+	}
+
+	/* contact info */
+	.cont_info {
+		padding-left: 260px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-top: 30px;
+		/* margin-bottom: -5px; */
+	}
+	.info {
+		margin-top: 0px;
+	}
+	.info ul li {
+		padding-bottom: 7px;
+	}
+	.info ul li span {
+		/* Text */
+		font-size: 2em;
+		/* Positioning & Display */
+		margin: 0; padding: 0;
+		margin-top: -4px;
+		position: relative;
+	}
+	.info ul li a, .info ul li a:hover {
+		font-size: 1.1em;
+		line-height: 0em;
+		padding-left: 30px;
+	}
+
+	/* <My expertise> */
+	.my_expertise {
+		margin-top: 20px;
+		margin-bottom: -20px;
+	}
+
+	/* <Experience> */
+	.experience {
+		margin-top: 20px;
+	}
+	.single_el h2, .par_el h2 {
+		font-family: 'Arvo', serif;
+		font-size: 1.4em;
+		font-weight: bold;
+		line-height: 0.6em;
+		margin-top: 10px;
+	}
+	.single_el h3, .par_el h3 {
+		font: 1.4em 'Droid Sans', sans-serif;
+		line-height: 0.535714em;
+		padding-bottom: 5px;
+	}
+	.bigspacing {
+		padding-left: 0px;
+	}
+	.period {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+		max-width: 100%;
+		font: 1.4em 'Droid Sans', sans-serif;
+		color: white !important;
+		font-weight: 400;
+		background-color: #0099e8;
+	}
+
+	/* <Education> */
+	.education, .newsec {
+		margin-top: 20px;
+	}
+
+}

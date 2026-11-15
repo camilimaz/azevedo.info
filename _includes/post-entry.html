@@ -1,0 +1,9 @@
+<section class="row-fluid single_post">
+	<aside class="span3 aside_el blogpost">
+		<h2><a href="{{ include.post.url | relative_url }}" class="posttitlelink">{{ include.post.title }}</a></h2>
+		<h5>{{ include.post.date | date: "%B %-d, %Y" }}</h5>
+	</aside>
+	<article class="span9 borderleft par_el">
+{{ include.post.content }}
+	</article>
+</section>
