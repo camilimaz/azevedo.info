@@ -1,6 +1,7 @@
 # Students and researchers supervised.
 # Groups are shown in this order. Each person: name, period, topic,
-# optional: at (institution), role (main supervisor / co-supervisor), url, now (where they went).
+# optional: at (institution), role (main supervisor / co-supervisor), now (where they went),
+#           linkedin (profile URL; the name becomes a link to it), url (any other page).
 
 groups:
   - title: Current PhD students
