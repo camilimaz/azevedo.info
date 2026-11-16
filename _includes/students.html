@@ -1,16 +1,20 @@
 {%- for g in site.data.students.groups %}
-<p class="student_group"><strong>{{ g.title }}</strong></p>
+<h2>{{ g.title }}</h2>
+<ul class="people">
 {%- for s in g.people %}
-<p class="student">
-  {% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}<span class="student_name">{{ s.name }}</span>{% endif %} &mdash; {{ s.period }}{% if s.at %}, {{ s.at }}{% endif %}{% if s.role %} ({{ s.role }}){% endif %}
-  {%- if s.topic %}<br><em>{{ s.topic }}</em>{% endif %}
-  {%- if s.now %}<br>Now: {{ s.now }}{% endif %}
-</p>
+  {%- assign link = s.linkedin | default: s.url %}
+  <li class="person">
+    <div class="name">{% if link %}<a href="{{ link }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</div>
+    <div class="sub">{{ s.period }}{% if s.at %} · {{ s.at }}{% endif %}{% if s.role %} · {{ s.role }}{% endif %}</div>
+    {%- if s.topic %}<div class="topic">{{ s.topic }}</div>{% endif %}
+    {%- if s.now %}<div class="sub">Now: {{ s.now }}</div>{% endif %}
+  </li>
 {%- endfor %}
+</ul>
 {%- endfor %}
 {%- if site.data.students.msc %}
-<p class="student_group"><strong>MSc theses supervised</strong></p>
-<details class="msc_list">
+<h2>MSc theses supervised</h2>
+<details class="msc-list">
   <summary>Show all {{ site.data.students.msc.size }} MSc theses</summary>
   <ul>
   {%- for t in site.data.students.msc %}

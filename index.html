@@ -2,83 +2,66 @@
 layout: default
 ---
 {%- assign p = site.data.profile -%}
-<!-- ABOUT ME -->
-<section class="row-fluid about_me" id="about_me">
-	<aside class="span3 aside_el">
-		<h2>{{ p.about_title }}</h2>
-		<h5>{{ p.about_subtitle }}</h5>
-	</aside>
-	<article class="span6 borderleft par_el">
-		<span class="circle"><img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="84" height="84"></span>
-		<div class="paragraphs">
+<div class="hero">
+  <h1>{{ p.name }}</h1>
+  <p>{{ p.tagline }}</p>
+</div>
+
+<section class="row" id="about">
+  <div class="row-label">
+    <h2>About me</h2>
+    <p>professional profile<br> and research interests</p>
+  </div>
+  <div class="row-body about">
+    <div class="about-text">
+      <img class="about-photo" src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="112" height="112">
 {%- capture about %}{% include about.md %}{% endcapture %}
 {{ about | markdownify }}
-		</div>
-	</article>
-	<div class="span3 cont_info">
-		<div class="soc">
-			<ul>
-				<li id="rss_link"><a href="{{ '/feed.xml' | relative_url }}"><img src="{{ '/assets/perfectcv/img/icons/rss.png' | relative_url }}" alt="rss" width="24" height="24"></a></li>
-				<li id="printicon"><a href="#"><img src="{{ '/assets/perfectcv/img/icons/printer.png' | relative_url }}" alt="print" width="24" height="24"></a></li>
-			</ul>
-		</div>
-		<div class="clearfix"></div>
-		<div class="info">
-			<ul>
-				<li class="first_con"><span class="icon-mobile"></span><a href="tel:{{ p.phone | remove: ' ' | remove: '(' | remove: ')' }}">{{ p.phone }}</a></li>
-				<li class="second_con"><span class="icon-location"></span><a href="{{ p.location.url }}">{{ p.location.label }}</a></li>
-				<li class="third_con"><span class="icon-mail"></span><a href="mailto:{{ p.email }}" id="emailfont">{{ p.email }}</a></li>
-				{%- for l in p.links %}
-				<li class="additionalfield"><img src="{{ l.icon | relative_url }}" width="22" height="22" alt=""><a class="contacticon" href="{{ l.url }}">{{ l.label }}</a></li>
-				{%- endfor %}
-			</ul>
-		</div>
-	</div>
+    </div>
+    <ul class="contact-list">
+      <li>{% include icon.html name="mail" %}<a href="mailto:{{ p.email }}">{{ p.email }}</a></li>
+      <li>{% include icon.html name="phone" %}<a href="tel:{{ p.phone | remove: ' ' | remove: '(' | remove: ')' }}">{{ p.phone }}</a></li>
+      <li>{% include icon.html name="pin" %}<a href="{{ p.location.url }}">{{ p.location.label }}</a></li>
+      {%- for l in p.links %}
+      <li>{% include icon.html name="link" %}<a href="{{ l.url }}">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
 </section>
 
-{%- assign cv = "education,experience" | split: "," %}
+{%- assign cv = "experience,education" | split: "," %}
 {%- for key in cv %}
 {%- if key == "education" %}{% assign items = site.data.education %}{% assign t = "Education" %}{% assign st = "where I've studied" %}
 {%- else %}{% assign items = site.data.experience %}{% assign t = "Experience" %}{% assign st = "where I've worked" %}{% endif %}
-<section class="row-fluid {{ key }}" id="{{ key }}">
-	<aside class="span3 aside_el">
-		<h2>{{ t }}</h2>
-		<h5>{{ st }}</h5>
-	</aside>
-	<div class="span9">
-	{%- for e in items %}
-		<div class="row-fluid">
-			<article class="span12 borderleft par_el in_spacing">
-				<span class="period">{{ e.period }}</span>
-				<div class="bigspacing">
-					<header>
-						<h2>{{ e.title }}</h2>
-						<h3>{{ e.place }}</h3>
-					</header>
-					{%- if e.details %}
-					<ul>{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>
-					{%- endif %}
-				</div>
-			</article>
-		</div>
-	{%- endfor %}
-	</div>
+<section class="row" id="{{ key }}">
+  <div class="row-label">
+    <h2>{{ t }}</h2>
+    <p>{{ st }}</p>
+  </div>
+  <div class="row-body">
+    <ul class="timeline">
+    {%- for e in items %}
+      <li>
+        <div class="when">{{ e.period }}</div>
+        <div>
+          <h3>{{ e.title }}</h3>
+          <p class="where">{{ e.place }}</p>
+          {%- if e.details %}
+          <ul>{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>
+          {%- endif %}
+        </div>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
 </section>
 {%- endfor %}
 
-{%- assign sections = site.sections | sort: "order" %}
-{%- for s in sections %}
-<section class="row-fluid newsec" id="{{ s.anchor }}">
-	<aside class="span3 aside_el">
-		<h2>{{ s.title }}</h2>
-		<h5>{{ s.subtitle }}</h5>
-	</aside>
-	<article class="span9 borderleft par_el secpost">
-{%- if s.anchor == "students" %}
-{% include students.html %}
-{%- else %}
-{{ s.content | markdownify }}
-{%- endif %}
-	</article>
-</section>
-{%- endfor %}
+<script>
+// Old one-page links (azevedo.info/#publications etc.) now live on their own pages.
+(function () {
+  var map = { publications: '/publications/', research: '/projects/', projects: '/projects/', students: '/students/', teaching: '/teaching/', 'post-40': '/publications/', 'post-93': '/projects/', 'post-55': '/teaching/', about_me: '#about' };
+  var h = location.hash.slice(1);
+  if (map[h]) { if (map[h][0] === '#') location.hash = map[h]; else location.replace('{{ "" | relative_url }}' + map[h]); }
+})();
+</script>

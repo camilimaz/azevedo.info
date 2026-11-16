@@ -2,6 +2,18 @@
 layout: default
 title: Blog
 ---
-{% for post in site.posts %}
-{% include post-entry.html post=post %}
-{% endfor %}
+<section class="row">
+  <div class="row-label">
+    <h2>Blog</h2>
+    <p>news and research notes</p>
+  </div>
+  <div class="row-body prose">
+  {%- for post in site.posts %}
+    <article class="post">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+      {{ post.content }}
+    </article>
+  {%- endfor %}
+  </div>
+</section>

@@ -1,4 +1,16 @@
 ---
 layout: default
 ---
-{% include post-entry.html post=page %}
+<section class="row">
+  <div class="row-label">
+    <h2><a href="{{ '/blog/' | relative_url }}">Blog</a></h2>
+    <p>news and research notes</p>
+  </div>
+  <div class="row-body prose">
+    <article class="post">
+      <h2>{{ page.title }}</h2>
+      <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
+{{ content }}
+    </article>
+  </div>
+</section>

@@ -7,29 +7,38 @@ Migrated in November 2026 from the old WordPress site on scripts.mit.edu, keepin
 
 | What | File |
 |---|---|
-| Name, job title, photo, phone, office, email, Scholar/LinkedIn links | `_data/profile.yml` |
+| Name, job title, photo, phone, office, email, profile links | `_data/profile.yml` |
 | "About me" text | `_includes/about.md` |
-| Education entries | `_data/education.yml` |
-| Experience entries | `_data/experience.yml` |
-| Publications | `_sections/01-publications.md` |
-| Research projects | `_sections/02-research.md` |
-| Teaching | `_sections/03-teaching.md` |
+| Experience / Education (home page) | `_data/experience.yml`, `_data/education.yml` |
+| Publications page | `_data/publications.yml` |
+| Projects page | `projects.md` |
+| Students page | `_data/students.yml` |
+| Teaching page | `teaching.md` |
 | Top menu | `_data/navigation.yml` |
 | Blog posts | `_posts/YYYY-MM-DD-title.md` |
+| Colours, fonts, layout | `assets/css/main.css` |
 | Images and files | `assets/uploads/` |
 
 Every change pushed to the `main` branch is published automatically within a minute or two.
 
 ### Adding a publication
 
-Copy an existing entry in `_sections/01-publications.md` and change it, for example:
+Copy an entry in `_data/publications.yml` and edit it (keep newest first within each type):
 
-```markdown
-17\. [\[2026\] "Paper title"](https://doi.org/...)  
-Author, A., **Lima Azevedo, C.**, Author, B. *Journal name*. [\[pre-print\]](/assets/papers/file.pdf)
+```yaml
+- type: journal          # journal | conference | book | talk
+  year: 2026
+  title: Paper title
+  url: https://doi.org/10.xxxx/xxxxx
+  details: 'Author, A., **Lima Azevedo, C.**, Author, B. *Journal name*, 12(3).'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/...
 ```
 
-(The two spaces at the end of the first line force a line break.)
+### Adding a student
+
+Copy a line in `_data/students.yml`. Add `linkedin: https://www.linkedin.com/in/...` to link their name.
 
 ### Adding a blog post
 
@@ -54,4 +63,4 @@ Then open http://localhost:4000.
 
 ## Credits
 
-Visual theme: PerfectCV by PixelDizajn (originally a WordPress theme), adapted to Jekyll.
+Design inspired by the PerfectCV WordPress theme used on the original site.

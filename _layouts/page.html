@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section class="row">
+  <div class="row-label">
+    <h2>{{ page.title }}</h2>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </div>
+  <div class="row-body prose">
+{{ content }}
+  </div>
+</section>

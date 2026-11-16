@@ -1,0 +1,1007 @@
+# Publications shown on /publications/
+# Each entry: type (journal | conference | book | talk), year, title,
+#   url (optional, link on the title), details (authors and venue, Markdown),
+#   links (optional list of extra links, e.g. pre-print, DTU Orbit).
+# To add a paper, copy an entry of the same type and put it in the right place (newest first).
+- type: book
+  year: 2019
+  title: SMART mobility via prediction, optimization and personalization
+  url: https://doi.org/10.1016/B978-0-12-815018-4.00012-7
+  details: 'Chapter authors: Atasoy, B., **Lima Azevedo, C.**, Akkinepally, A.P., Seshadri, R., Zhao, F., Abou-Zeid, M., Ben-Akiva, M. In *Demand for Emerging Transportation Systems: Modeling Adoption, Satisfaction, and Mobility Patterns*. Elsevier.'
+- type: book
+  year: 2019
+  title: Smart Mobility
+  url: https://orbit.dtu.dk/en/publications/e30c63ec-db56-40ce-9645-c3fd107cbd94
+  details: 'Borysov, S., **Lima Azevedo, C.**, Pereira, F. C. In *DTU Energy Report 2019: Transforming Urban Mobility*. DTU Print.'
+- type: book
+  year: 2014
+  title: Network model calibration studies
+  url: http://www.crcpress.com/product/isbn/9781482228700
+  details: 'In Traffic Simulation and Data: Validation Methods and Applications (2014). Chapter authors: **Lima Azevedo, C.**, Barcelo, J., Flötteröd, G., Ciuffo, B., Kolechkina, T., Toledo, T. and Wagner, P.. Editor(s): Winnie Daamen, Christine Buisson, Serge P. Hoogendoorn. CRC Press, Taylor & Francis Group.'
+- type: book
+  year: 2014
+  title: PhD Thesis — Probabilistic Safety Analysis using Traffic Microscopic Simulation
+  url: http://web.mit.edu/cami/Public/Thesis_CLA_2014.pdf
+  details: 'Supervisors: [Dr. João Cardoso](http://www.lnec.pt/organization/dt/npts/Joao_Cardoso/?searchterm=joao%20cardoso) (National Laboratory of Civil Engineering, Portugal), [Prof. Moshe Ben-Akiva](http://cee.mit.edu/ben-akiva) (Massachusetts Institute of Technology, USA) and [Prof. Filipe Moura](https://fenix.tecnico.ulisboa.pt/homepage/ist14188) (Instituto Superior Técnico, Portugal)'
+- type: book
+  year: 2008
+  title: 'MSc Thesis — Estimation of Annual Traffic Volumes: A model for Portugal (in Portuguese)'
+  url: http://repositorio.lnec.pt:8080/handle/123456789/15542
+  details: 'Supervisors: [Dr. João Cardoso](http://www.lnec.pt/transportes/pt/nucleo/nucleo-de-planeamento-trafego-e-seguranca/apresentacao-1/) (National Laboratory of Civil Engineering, Portugal) and [Prof. José M. Viegas](http://www.internationaltransportforum.org/about/SecGen.html) (Instituto Superior Técnico, Portugal)'
+- type: journal
+  year: 2027
+  title: Dynamic multi-agent deep reinforcement learning-based pricing and incentivization approach in multimodal transportation networks
+  url: https://doi.org/10.1016/j.trc.2026.106028
+  details: 'Kadem, K., Ameli, M., **Lima Azevedo, C.**, Zargayouna, M., Oukhellou, L. *Transportation Research Part C: Emerging Technologies*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/1a7c18df-a412-4b84-a0f1-d6b75c88cc95
+- type: journal
+  year: 2026
+  title: 'Quantum Computing for Predictive Transport Modeling: A Systematic Literature Review and Future Research Needs'
+  url: https://doi.org/10.1109/TITS.2026.3676854
+  details: Guerrero-Dominguez, D., **Lima Azevedo, C.**, Karlsson, S., Nielsen, O. A. *IEEE Transactions on Intelligent Transportation Systems*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/22098569-f437-496c-b60f-76fda4c2eeb9
+- type: journal
+  year: 2026
+  title: 'A framework for benchmarking traffic signal control robustness under incidents: comparative study of reinforcement learning-based methods'
+  url: https://doi.org/10.1186/s12544-026-00841-1
+  details: Nguyen, D. V. A., **Lima Azevedo, C.**, Toledo, T., Rodrigues, F. *European Transport Research Review*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/8f19b44e-a33a-4b62-af49-860abd844596
+- type: journal
+  year: 2026
+  title: Active learning-enhanced constrained Bayesian optimization for multi-modal and multi-objective traffic signal control
+  url: https://doi.org/10.1016/j.trc.2026.105872
+  details: 'Gong, Y., Riis, C., Zhong, S., Wang, T., Rodrigues, F., **Lima Azevedo, C.**, Jiang, Y. *Transportation Research Part C: Emerging Technologies*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/b12a3dc3-fe61-40c4-9be3-37aca129e906
+- type: journal
+  year: 2026
+  title: The influence of urban context on emotions and bodily responses during walking
+  url: https://doi.org/10.1007/s11524-025-01051-1
+  details: Leite Rodrigues, A., Conceição, M., Ramusga, R., **Lima Azevedo, C.** & Morgado P. *Journal of Urban Health, Published 27 March 2026.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/960671ff-f775-492c-b0fb-6a105a9a1613
+- type: journal
+  year: 2026
+  title: 'Spatio-temporal graph neural network for urban spaces: Interpolating citywide traffic volume'
+  url: https://doi.org/10.1016/j.eswa.2026.131823
+  details: Kaiser, S. K., Rodrigues, F., **Lima Azevedo, C.** & Kaack, L. H. *Expert Systems with Applications, 316.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/1407418c-0485-4660-a673-635875b89497
+- type: journal
+  year: 2026
+  title: Multi-Graph Inductive Representation Learning for Large-Scale Urban Rail Demand Prediction under Disruptions
+  url: https://doi.org/10.1016/j.cie.2026.111924
+  details: Nguyen, D., Flensburg, V., **Lima Azevedo C.**, Cerreto., F., Pascariu, B., Pellegrini, P. & Rodrigues, F. *Computers & Industrial Eng., 215*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/11b5ca25-fecf-4c5a-a07e-00aca976dbf2
+- type: journal
+  year: 2026
+  title: 'Scenario Discovery for urban planning: The case of green urbanism and the impact on stress'
+  url: https://doi.org/10.1016/j.futures.2025.103727
+  details: Torres Lahoz, L., **Lima Azevedo, C.**, Ancora, L., Morgado, P., Kotval, Z., Miranda, B., Camara Pereira, F. *Futures, 175, 103727.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/79dfc66a-58cc-449b-85bb-adb634035acd
+- type: journal
+  year: 2025
+  title: Deep reinforcement learning for day-to-day dynamic tolling in tradable credit schemes
+  url: https://doi.org/10.1080/21680566.2025.2552884
+  details: 'Wu, X., Seshadri, R., Rodrigues, F., & **Lima Azevedo, C**. *Transportmetrica B: Transport Dynamics, 13(1), 2552884.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/3f96d68a-e383-44a5-a86b-d59caa64c918
+- type: journal
+  year: 2025
+  title: 'Bayesian optimization of electric vehicle charging infrastructure location planning: An agent-based simulation approach'
+  url: https://doi.org/10.1016/j.scs.2025.106884
+  details: Koutounidis, A., Barzegar, D. D., Paulsen, M., Papadaskalopoulos, D., Pereira, F. C., & **Lima Azevedo, C**. *Sustainable Cities and Society, 134.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/bfa73330-0d8b-40c0-b42d-7dd83480c667
+- type: journal
+  year: 2025
+  title: 'Tradable credit scheme for mobility management: state of the art and comparison of theoretical and experimental research'
+  url: https://doi.org/10.1016/j.trip.2025.101611
+  details: Albano, G., Mattas, K., Mourtzouchou, A., Seshadri, R., Nahmias-Biran, B. H., **Lima Azevedo, C.**, & Ciuffo, B. *Transportation Research Interdisciplinary Perspectives, 33, 101611.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/4202ad7d-547c-433d-b72a-666a2e4a1c8e
+- type: journal
+  year: 2025
+  title: 'Creating visualizations using generative AI to guide decision-making in street designs: A viewpoint'
+  url: https://doi.org/10.1016/j.urbmob.2025.100104
+  details: Valença, G., **Lima Azevedo, C.**, Moura, F., & de Sá, A. M. *Journal of Urban Mobility, 7, 100104.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/2242ba1a-7a84-4836-a4c9-a0e035a2c54f
+- type: journal
+  year: 2025
+  title: 'Bridging the gap: a scoping review exploring the relationship between objective and subjective cycling safety'
+  url: https://doi.org/10.1080/01441647.2025.2537200
+  details: Costa, M., Marques, M., Siebert, F. W., **Lima Azevedo, C.**, & Moura, F. *Transport Reviews, 1-23.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/44a602d3-e9fa-4e2d-8032-3d08d67dddfa
+- type: journal
+  year: 2025
+  title: Which cycling environment appears safer?
+  url: https://doi.org/10.1109/TITS.2024.3507639
+  details: Costa, M., Marques, M., **Lima Azevedo, C.**, Siebert, F. W., & Moura, F. *Learning cycling safety perceptions from pairwise image comparisons. IEEE Transactions on Intelligent Transportation Systems.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/76d28b75-6f9d-4b08-9508-b1086749d50f
+- type: journal
+  year: 2025
+  title: Formulation and solution framework for real‐time railway traffic management with demand prediction
+  url: https://doi.org/10.1049/itr2.12610
+  details: Pascariu, B., Flensburg, J. V., Pellegrini, P., & **Lima Azevedo, C**. *IET Intelligent Transport Systems, 19(1), e12610.*
+- type: journal
+  year: 2024
+  title: 'Explainable active learning metamodeling for simulations: Method and experiments for ATM performance assessment'
+  url: https://doi.org/10.1016/j.trc.2024.104788
+  details: 'Riis, C., Antunes, F. N., Bolić, T., Gurtner, G., Cook, A., **Lima Azevedo, C.**, & Pereira, F. C. *Transportation Research Part C: Emerging Technologies, 104788.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/60141c99-fcf2-47bc-b8d7-dc7d64d9b968
+- type: journal
+  year: 2024
+  title: 'Unraveling the relation between cycling accidents and built environment typologies: capturing spatial heterogeneity through a latent class discrete outcome model'
+  url: https://doi.org/10.1016/j.aap.2024.107533
+  details: Costa, M., **Lima Azevedo, C.**, Siebert, F. W., Marques, M., & Moura, F. *Accident Analysis & Prevention, 200.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/0553c42d-58cc-4d0e-b7e2-f9027ec9f801
+- type: journal
+  year: 2024
+  title: Tradable credit schemes with peer-to-peer trading mechanisms
+  url: https://doi.org/10.1016/j.trc.2024.104532
+  details: 'Liu, R., Wang, D. Z., Jiang, Y., Seshadri, R., & **Lima Azevedo, C**. *Transportation Research Part C: Emerging Technologies, 160, 104532.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/98c4c6de-4482-48f6-a036-5ffb064710a9
+- type: journal
+  year: 2024
+  title: Contextual Bayesian optimization of congestion pricing with day-to-day dynamics
+  url: https://doi.org/10.1016/j.tra.2023.103927
+  details: 'Liu, R., Jiang, Y., Seshadri, R., Ben-Akiva, M., & **Lima Azevedo, C**. *Transportation Research Part A: Policy and Practice, 179, 103927.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/3320f425-0ae4-484e-a5a3-8e42c134aa95
+- type: journal
+  year: 2024
+  title: Estimation of Environmental Rebound Effect Induced by Shared Automated Passenger Transport Service in a Mid-Size European City via Microsimulation
+  url: https://doi.org/10.1177/03611981231223752
+  details: Garus, A., Alonso Oreña, B., Alonso Raposo, M., Mourtzouchou, A., Cordera Piñera, R., **Lima Azevedo, C.**, dell’ Olio L., Seshadri, R., Monteiro M. & Ciuffo, B. *Transportation Research Record, in print, 1-13.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/790b347e-aca1-4b9d-b2ca-52f13fd8508d
+- type: journal
+  year: 2023
+  title: Managing network congestion with a trip-and area-based tradable credit scheme
+  url: https://doi.org/10.1080/21680566.2022.2083034
+  details: 'Liu, R., Chen, S., Jiang, Y., Seshadri, R., Ben-Akiva, M., & **Lima Azevedo, C**. *Transportmetrica B: Transport Dynamics, 11(1), 434-462.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/38d0019d-ba50-4947-a5b5-796203c418a3
+- type: journal
+  year: 2023
+  title: Attitudes and Latent Class Choice Models using Machine Learning
+  url: https://doi.org/10.1016/j.jocm.2023.100452
+  details: Lahoz, L. T., Pereira, F. C., Sfeir, G., Arkoudi, I., Monteiro, M. M., & **Lima Azevedo, C**. *Journal of Choice Modelling, 49, 100452.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/19f4787c-06d5-47af-8812-142a5e25ce1a
+- type: journal
+  year: 2023
+  title: 'Combining discrete choice models and neural networks through embeddings: Formulation, interpretability and performance'
+  url: https://doi.org/10.1016/j.trb.2023.102783
+  details: 'Arkoudi, I., Krueger, R., **Lima Azevedo, C.**, & Pereira, F. C. *Transportation Research Part B: Methodological, 175, 102783.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/0e3becdc-9fdf-4d8d-ab37-e856a8da66b0
+- type: journal
+  year: 2023
+  title: 'Car-sharing subscription preferences and the role of incentives: The case of Copenhagen, Munich, and Tel Aviv-Yafo'
+  url: https://doi.org/10.1016/j.cstp.2023.101013
+  details: Monteiro, M. M., **Lima Azevedo, C.**, Kamargianni, M., Cantelmo, G., Tavory, S. S., Gal- Tzur, A., Antoniou, C. & Shiftan, Y. *Case Studies on Transport Policy, 12, 101013.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/d6fa1871-3d99-45cc-9754-6b0d38887e6b
+- type: journal
+  year: 2023
+  title: Market design for tradable mobility credits
+  url: https://doi.org/10.1016/j.trc.2023.104121
+  details: 'Chen, S., Seshadri, R., **Lima Azevedo, C.**, Akkinepally, A. P., Liu, R., Araldo, A., Jiang Y., & Ben-Akiva, M. E. *Transportation Research Part C: Emerging Technologies, 151, 104121.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/7baefbe5-1ce2-4077-8bea-7b38a5c4db29
+- type: journal
+  year: 2023
+  title: A federated platform enabling a systematic collaboration among devices, data and functions for smart mobility
+  url: https://doi.org/10.1109/TITS.2023.3236991
+  details: You, L., Danaf, M., Zhao, F., Guan, J., **Lima Azevedo, C.**, Atasoy, B., & Ben-Akiva, M. *IEEE Transactions on Intelligent Transportation Systems, 24(4), 4060-4074.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/fe82419b-0d6b-43ee-852f-a7acc53d3dc9
+- type: journal
+  year: 2022
+  title: 'Aligning users’ and stakeholders’ needs: How incentives can reshape the carsharing market'
+  url: https://doi.org/10.1016/j.tranpol.2022.07.009
+  details: Cantelmo, G., Amini, R. E., Monteiro, M. M., Frenkel, A., Lerner, O., Tavory, S. S., Galtzur, A., Kamargianni, M., Shiftan, Y., Behrischi, C., **Lima Azevedo, C.**, Haustein, S., & Antoniou, C. *Transport Policy (126), 306-326.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/2ea5aac6-a2aa-4770-898c-f4b7413c103b
+- type: journal
+  year: 2022
+  title: 'The effect of transport infrastructure, congestion and reliability on mental wellbeing: a systematic review of empirical studies'
+  url: https://doi.org/10.1080/01441647.2022.2100943
+  details: Conceição, M. A., Monteiro, M. M., Kasraian, D., van den Berg, P. E., Haustein, S., Alves, I., **Lima Azevedo, C.**, and Miranda, B. *Transport Reviews, 1-39.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/b7a81799-51a2-453b-971d-7481917a1594
+- type: journal
+  year: 2020
+  title: Formulation and solution approach for calibrating activity-based travel demand model-system via microsimulation
+  url: https://doi.org/10.1016/j.trc.2020.102650
+  details: 'Chen, S., Prakash, A. A., **Lima Azevedo, C.**, & Ben-Akiva, M. *Transportation Research Part C: Emerging Technologies, 119, 102650.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/331c7b73-0be8-4378-9a7a-4e8b247104da
+- type: journal
+  year: 2020
+  title: Evaluating the systemic effects of automated mobility-on-demand services via large-scale agent-based simulation of auto-dependent prototype cities
+  url: https://doi.org/10.1016/j.tra.2020.06.013
+  details: 'Oke, J. B., Akkinepally, A. P., Chen, S., Xie, Y., Aboutaleb, Y. M., **Lima Azevedo, C.**, Zegras, C. P., Ferreira, J., Ben-Akiva, M. *Transportation Research Part A: Policy and Practice, 140, 98- 126.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/489e9c26-3f19-4bd0-a020-506a92ef64ef
+- type: journal
+  year: 2020
+  title: 'Assessing the impacts of automated mobility-on-demand through agent-based simulation: A study of Singapore'
+  url: https://doi.org/10.1016/j.tra.2020.06.004
+  details: 'Oh, S., Seshadri, R., **Lima Azevedo, C.**, Kumar, N., Basak, K., & Ben-Akiva, M. *Transportation Research Part A: Policy and Practice, 138, 367-388.*'
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/620cd898-6ffd-4dc6-a7fe-151fde5bddc4
+- type: journal
+  year: 2020
+  title: 'QTIP: Quick simulation-based adaptation of Traffic model per Incident Parameters'
+  url: https://doi.org/10.1080/17477778.2020.1756702
+  details: Peled, I., Kamalakar, R. **Lima Azevedo, C.** Pereira, F.P. *Journal of Simulation, 1-21.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/9ca69426-4fe5-4ad3-b5b5-943d71209316
+- type: journal
+  year: 2020
+  title: A Policy-Sensitive Model of Parking Choice for Commercial Vehicles in Urban Areas
+  url: https://doi.org/10.1287/trsc.2019.0970
+  details: Chiara, G.D., Cheah, L., **Lima Azevedo, C.**, and Ben-Akiva, M. *Transportation Science, 54(3), 606-630.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/cc11cf2b-3784-4dc4-8aec-bc92fd571744
+- type: journal
+  year: 2020
+  title: 'Evaluating the impacts of shared automated mobility on-demand services: an activity-based accessibility approach'
+  url: https://doi.org/10.1007/s11116-020-10106-y
+  details: Nahmias-Biran, B., Oke, J.B., Kumar, N., **Lima Azevedo, C.**, Ben-Akiva, M. *Transportation (2020), 1-26.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/18b2bce0-4ac1-4a8f-8fe1-e6dbf21b3508
+- type: journal
+  year: 2020
+  title: Integrated population synthesis and workplace assignment using an efficient optimization-based person-household matching method
+  url: https://doi.org/10.1007/s11116-020-10090-3
+  details: Fournier, N., Christofa, E., Akkinepally, A.P., **Lima Azevedo, C**. *Transportation (2020), 1-27.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/f892324c-b33f-4eab-bf0f-edd3041999bf
+- type: journal
+  year: 2020
+  title: 'Road safety of passing maneuvers: A bivariate extreme value theory approach under non-stationary conditions, Accident Analysis & Prevention, 134, 105315.'
+  url: https://doi.org/10.1016/j.aap.2019.105315
+  details: Cavadas, J., **Lima Azevedo, C.**, Farah, H., Ferreira, A.
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/a3a8d959-ab93-43fa-afcd-c26f4b2476c2
+- type: journal
+  year: 2019
+  title: 'System-Level Optimization of Multi-Modal Transportation Networks for Energy Efficiency using Personalized Incentives: Formulation, Implementation, and Performance'
+  url: https://doi.org/10.1177/0361198119864906
+  details: Araldo, A., Gao, S., Seshadri, R., **Lima Azevedo, C.**, Ghafourian, H., Sui, Y., Ayaz, S., Sukhin, D., Ben-Akiva, M. *Transportation Research Record, 2673(12), 425–438.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/d137f81a-ee0c-4a0c-a7aa-5ff9e52af1f9
+- type: journal
+  year: 2019
+  title: 'From Traditional to Automated Mobility on Demand: A Comprehensive Framework for Modeling On-Demand Services in SimMobility'
+  url: https://doi.org/10.1177/0361198119853553
+  details: Nahmias-Biran, B., Oke, J. B., Kumar, N., Basak, K., Araldo, A., Seshadri, R., Akkinepally, A.P., **Lima Azevedo, C.**, Ben-Akiva, M. *Transportation Research Record, 2673(12), 15–29.*
+  links:
+  - label: DTU Orbit
+    url: https://orbit.dtu.dk/en/publications/c5fcef82-8865-475f-bff4-fbbf52719736
+- type: journal
+  year: 2019
+  title: 'Behavioral modeling of on-demand mobility services: general framework and application to sustainable travel incentives'
+  url: https://link.springer.com/article/10.1007/s11116-019-10011-z
+  details: Xie, Y., Danaf, M., Atasoy, B., Jeong, K., Seshadri, R., **Lima Azevedo, C.**, Ben-Akiva, M. *Transportation*, pp. 1-23.
+  links:
+  - label: post-print
+    url: https://link.springer.com/content/pdf/10.1007%2Fs11116-019-10011-z.pdf
+- type: journal
+  year: 2019
+  title: A novel global urban typology framework for sustainable mobility futures
+  url: https://iopscience.iop.org/article/10.1088/1748-9326/ab22c7
+  details: Oke, O., Aboutaleb, Y. M., Akkinepally, A. P., **Lima Azevedo, C.**, Han, Y., Zegras, P. C., Ferreira, J., Ben-Akiva, M. *Environmental Research Letters*
+  links:
+  - label: pre-print
+    url: https://iopscience.iop.org/article/10.1088/1748-9326/ab22c7/pdf
+- type: journal
+  year: 2019
+  title: Context-aware stated preferences with smartphone-based travel surveys
+  url: https://www.sciencedirect.com/science/article/pii/S1755534518300381
+  details: Danaf, M., Atasoy, B., **Lima Azevedo, C.**, Ding-Mastera, J., Abou-Zeid, M., Cox, N., Zhao, F., Ben-Akiva, M. *Journal of Choice Modelling*, Volume 31, pp. 35-50.
+  links:
+  - label: post-print
+    url: http://web.mit.edu/cami/Public/CLA_ContextBasedSP_JCM_2019.pdf
+- type: journal
+  year: 2019
+  title: Demand Calibration of Multimodal Microscopic Traffic Simulation using Weighted Discrete SPSA
+  url: https://journals.sagepub.com/doi/10.1177/0361198119842107
+  details: 'Oh, S., Seshadri, R., **Lima Azevedo, C.**, Ben-Akiva, M. *Transportation Research Record: Journal of the Transportation Research Board*'
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_WDSPSA_TRR_2019_preprint.pdf%20
+- type: journal
+  year: 2018
+  title: 'Modelling Framework and Implementation of Activity-and Agent-Based Simulation: An Application to the Greater Boston Area'
+  url: https://trid.trb.org/view/1497234
+  details: 'Viegas de Lima, I. H., Danaf, M., Prakash, A., **Lima Azevedo, C.**, Ben-Akiva, M. *Transportation Research Record: Journal of the Transportation Research Board*.'
+  links:
+  - label: post-print
+    url: http://web.mit.edu/cami/Public/CLA_Preday_TRR_2018_preprint.pdf
+- type: journal
+  year: 2018
+  title: 'Automated Mobility-on-Demand vs. Mass Transit: A Multi-Modal Activity-Driven Agent-Based Simulation Approach'
+  url: http://journals.sagepub.com/doi/abs/10.1177/0361198118758630?journalCode=trra
+  details: 'Basu, R., Araldo, A., Prakash, A., Basak, K., Seshadri, R., Nahmias, B., Deshmunkh, N., Kumar, N., **Lima Azevedo, C.**, Ben-Akiva, C. *Transportation Research Record: Journal of the Transportation Research Board*.'
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_SmartMobVsPT_TRR_2018_preprint.pdf
+- type: journal
+  year: 2017
+  title: Portuguese Mainland Road Network Safety Performance Indicator
+  url: https://www.sciencedirect.com/science/article/pii/S2213624X17302948
+  details: Vieira Gomes, S., **Lima Azevedo, C.**, Cardoso, J. *Case Studies on Transport Policy*. Volume 6(3), pp. 416-422.
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_SPI_Portugal_WCTR_2016.pdf
+- type: journal
+  year: 2017
+  title: 'SimMobility Short-term: An Integrated Mobility Microscopic Simulator'
+  url: https://doi.org/10.3141/2622-02
+  details: '**Lima Azevedo, C.**, Oh, S., Deshmukh N., Marimuthu B., Marczuk K., Soh H., Basak K., Toledo T., Peh L. S., Ben-Akiva, M. *Transportation Research Record, 2622, pp. 13-23.*'
+- type: journal
+  year: 2016
+  title: Safety analysis of passing maneuvers using extreme value theory
+  url: http://www.sciencedirect.com/science/article/pii/S0386111216300218
+  details: Farah, H., **Lima Azevedo, C.** *IATSS Research*, 41(1), pp. 12-21.
+  links:
+  - label: post-print
+    url: https://www.sciencedirect.com/science/article/pii/S0386111216300218/pdfft?md5=d6c3ff5a639799f677bcfc6313c63ca9&pid=1-s2.0-S0386111216300218-main.pdf
+- type: journal
+  year: 2016
+  title: Microsimulation of Demand and Supply of Autonomous Mobility On-Demand
+  url: http://trrjournalonline.trb.org/doi/pdf/10.3141/2564-03
+  details: '**Lima Azevedo, C.**, Marczuk, K., Raveau, S., Soh, H., Adnan, M., Basak, K., Loganathan, H., Deshmunkh, N., Lee, D. H., Frazzoli, E., Ben-Akiva, M. E. *Transportation Research Record: Journal of the Transportation Research Board*, No. 2564., pp. 21-30.'
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_AMOD_Simul_TRR_preprint_2016.pdf
+- type: journal
+  year: 2015
+  title: 'W–SPSA in practice: Approximation of weight matrices and calibration of traffic simulation models'
+  url: http://www.sciencedirect.com/science/article/pii/S0968090X15001710
+  details: Antoniou, C., **Lima Azevedo, C.**, Lu, L., Pereira, F., Ben-Akiva, M. E. Transportation Research Part C, Volume 59, Pages 129–146.
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_WSPSAinPractice_ISTTT_2015_preprint.pdf
+- type: journal
+  year: 2015
+  title: Dealing with uncertainty in detailed calibration of traffic simulation models for safety assessment
+  url: http://www.sciencedirect.com/science/article/pii/S0968090X15000376
+  details: '**Lima Azevedo, C.**, Ciuffo, B., Cardoso, J., Ben-Akiva, M. E. Transportation Research Part C, Volume 58, Part B, Pages 395–412.'
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_uncertainty_CLA_TRC_2015_preprint.pdf
+- type: journal
+  year: 2014
+  title: Vehicle tracking using the k-shortest paths algorithm and dual graphs
+  url: https://doi.org/10.1016/j.trpro.2014.07.002
+  details: '**Lima Azevedo, C.**, Cardoso, J., Ben-Akiva, M. *Transportation Research Procedia 1 (1), 2014, 3- 11.*'
+- type: journal
+  year: 2014
+  title: A sensitivity-analysis-based approach for the calibration of traffic simulation models
+  url: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6757042
+  details: Ciuffo, B. and **Lima Azevedo, C.** (2014), IEEE Intelligent Transportation Systems Transactions, Volume 15, Issue 3, pp. 1298 – 1309.
+- type: journal
+  year: 2013
+  title: Road safety performance indicators for the interurban road network.
+  url: http://www.sciencedirect.com/science/article/pii/S0001457512004034
+  details: Yannis, G., Weijermars, W., Gitelman, V., Vis, M., Chaziris, A., Papadimitriou, E., **Lima Azevedo, C.** , Accident Analysis & Prevention, Volume 60, November 2013, Pages 384–395.
+- type: journal
+  year: 2013
+  title: Automatic vehicle trajectory extraction by aerial remote sensing
+  url: http://www.sciencedirect.com/science/article/pii/S1877042814001207
+  details: '**Lima Azevedo, C.**, Cardoso, J., Ben-Akiva, M. E., Costeira, J.P., Marques, M. (2013), Procedia – Social and Behavioral Sciences, Volume 111, pp 849-858.'
+- type: conference
+  year: 2026
+  title: 'Beyond the Vehicle Routing Problem: Design of Temporal Networks for Demand-Responsive Transport'
+  url: https://doi.org/10.5220/0014330400004055
+  details: Wu., X., Seshadri, R., Rodrigues, F., **Lima Azevedo, C.**, Araldo, A. *15th International Conference on Operations Research and Enterprise Systems (ICORES), Marbella, Spain, March 2026.*
+- type: conference
+  year: 2026
+  title: An integrated passenger–traffic simulation framework for evaluating rail management optimization
+  url: https://orbit.dtu.dk/en/publications/d00a68e6-9147-44ef-955d-2e13e80243dd
+  details: Bianca P., Sfeir, G., Marlière, G., Rodrigues, F., **Lima Azevedo, C.**, Pellegrini P. *Roadref 2026 - Société Française de Recherche Opérationnelle et d'Aide à la Décision, Tours, France, February 2026.*
+- type: conference
+  year: 2025
+  title: 'The APEX project - Artificial Intelligence for Policy Excellence in the Climate Crisis: initial results and outlook'
+  details: Böger, J., Lassen, O., Madaleno, F., **Lima Azevedo, C.**, Cantelmo, G., Rodrigues, F., Agriesti S. & Pereira F. *AI in Science Summit 2025, Copenhagen, Denmark, November 2025.*
+- type: conference
+  year: 2025
+  title: 'Spatio-Temporal Graph Neural Network for Urban Spaces: Interpolating Citywide Traffic Volume. (Best Paper)'
+  url: https://doi.org/10.48550/arXiv.2505.06292
+  details: Kaiser, S. K., Rodrigues, F., **Lima Azevedo, C.** & Kaack, L. H. *SoGood Workshop , European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Database, Porto, Portugal, September 2025.*
+- type: conference
+  year: 2025
+  title: 'Choice Sets and Smart Card Data In Public Transport Route Choice Models: Generated vs. Empirical Sets'
+  details: Sfeir, G., Rodrigues, F., Seshadri, R. & **Lima Azevedo, C**. *Empirical Sets. 16th International Conference on Advanced Systems in Public Transport (CASPT2025), Kyoto, Japan, July 2025.*
+- type: conference
+  year: 2025
+  title: 'Shared mobility services: exploring their impact on equity in multimodal transportation systems'
+  url: https://orbit.dtu.dk/en/publications/b34b019f-4591-48d4-b301-7d3c1759d565
+  details: Kadem, K., Ameli, M., **Lima Azevedo, C.**, Zargayouna, M. & Oukhellou, L. *12th Triennial Symposium on Transportation Analysis conference, Okinawa, Japan, June 2025.*
+- type: conference
+  year: 2025
+  title: A naturalistic experiment on individual activity, mobility and emotional patterns
+  url: https://orbit.dtu.dk/en/publications/c78dd86b-e488-4ecd-8046-7c6df9f28d4f
+  details: '**Azevedo, C. L.**, Conceição, M., Haustein, S., Morgado, P. & Miranda, B. *12th Triennial Symposium on Transportation Analysis conference, Okinawa, Japan, June 2025.*'
+- type: conference
+  year: 2025
+  title: A modeling framework for analyzing the impact of shared mobility services on equity in multimodal transportation networks
+  url: https://orbit.dtu.dk/en/publications/27340db2-24e6-4fa2-a824-72331ba7cc55
+  details: Kadem, K. Ameli, M., **Lima Azevedo, C.**, Zargayouna, M. & Oukhellou L. *Transportation Research Symposium 2025. Rotterdam, Netherlands, May 2025.*
+- type: conference
+  year: 2024
+  title: Neural Relational Inference and Graph Neural Network for real-time demand prediction in rail networks
+  details: Rodrigues, F., Nguyen, D. V., Flensburg, J. V., **Lima Azevedo C**. *5th International Workshop on Artificial Intelligence for Railways, International Conference on Optimization and Decision Science (ODS) 2024, Badesi, Italy, September 2024.*
+- type: conference
+  year: 2024
+  title: Integrated demand and supply simulation for realistic assessment of rail traffic management optimization
+  details: Pascariu, B., Marlière, G., Sfeir, G., Flensburg, J. V., Naldini, F., Rodrigues, F., Pellegrini, P., **Lima Azevedo C**. *5th International Workshop on Artificial Intelligence for RAILwayS, in ODS 2024 Badesi, Italy, September 2024.*
+- type: conference
+  year: 2024
+  title: 'Identifying Choice Sets for Public Transport Route Choice Models using Smart-Card data: Generated vs. Empirical Sets'
+  url: https://orbit.dtu.dk/en/publications/c47b93cf-6895-4229-a070-4b90741f53bf
+  details: Sfeir, G., Rodrigues, F., Seshadri, R., **Lima Azevedo, C**. *Empirical Sets. 17th International Conference on Travel Behavior Research, July 2024, Vienna, Austria*
+- type: conference
+  year: 2024
+  title: Reinforcement Learning for Dynamic Tolling in Tradable Credit Systems
+  details: Wu, X., Seshadri, R., Rodrigues, F, **Lima Azevedo, C**. *5th Symposium on Management of Future Motorway and Urban Traffic Systems, MFTS 2024 symposium, Crete, Greece, September, 2024.*
+- type: conference
+  year: 2024
+  title: Capturing Spatial Heterogeneity in Cycling Accidents using a Latent Class Discrete Outcome Model
+  details: Costa, M., **Lima Azevedo, C.**, Siebert, F. W., Marques, M., & Moura, F. *12th Symposium of the European Association for Research in Transportation, hEART. Helsinki, Finland, June 2024.*
+- type: conference
+  year: 2024
+  title: Personalized Pareto-improving Congestion Pricing and Tradable Credit Schemes
+  details: Chen, S., Seshadri, R., **Lima Azevedo, C.**, Liu, R., Jiang Y., & Ben-Akiva, M. E. *12th Symposium of the European Association for Research in Transportation, hEART, Helsinki, Finland, June 2024.*
+- type: conference
+  year: 2023
+  title: Scoring Cycling Environments Perceived Safety using Pairwise Image Comparisons
+  url: https://doi.org/10.1109/ITSC57777.2023.10422620
+  details: Costa, M., Marques, M., Siebert, F. W., **Lima Azevedo, C.**, & Moura, F. *In 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), Bilbao, Spain, September 2023.*
+- type: conference
+  year: 2023
+  title: Rail traffic optimization integrating RECIFE-MILP and linear regression demand prediction
+  details: Pascariu, B., Flensburg, J. V., Pellegrini, P., **Lima Azevedo, C**. *Euro Working Group (EWGT), Santander, Spain, September 2023.*
+- type: conference
+  year: 2024
+  title: En-route transfer-based dynamic ridesharing
+  url: https://doi.org/10.1016/j.trpro.2024.02.064
+  details: Maiti, S., **Lima Azevedo, C.**, & Antoniou, C. *Euro Working Group (EWGT), Santander, Spain, September 2023.*
+- type: conference
+  year: 2024
+  title: 'Tradable Credit Schemes for Mobility Management: Review and Comparison of Theoretical and Experimental Research'
+  details: Albano, G., Mourtzouchou, A., Mattas, K., Seshadri, R., Nahmias-Biran, B.-H., **Lima Azevedo, C.**, Ciuffo, B. *In Transportation Research Board 103rd Annual Meeting. Transportation Research Board (TRB 2024), Washington D.C., US, January 2024.*
+- type: conference
+  year: 2024
+  title: A Practical Tradable Credit Scheme to Manage the Commute Problem While Ensuring the Cumulative Revenue Neutrality of the Central Authority
+  details: Albano, G., Mattas, K., Seshadri, R., Nahmias-Biran, B.-H., **Lima Azevedo, C.**, Ciuffo, B. *In Transportation Research Board 103rd Annual Meeting. Transportation Research Board (TRB 2024), Washington D.C., US, January 2024.*
+- type: conference
+  year: 2024
+  title: Personalized Pareto-improving Tolling for Congestion Pricing and Tradable Credit Schemes
+  details: Chen, S., Seshadri, R., **Lima Azevedo, C.**, Akkinepally, A. P., Liu, R., Jiang Y., & Ben- Akiva, M. E. *In Transportation Research Board 103rd Annual Meeting. Transportation Research Board (TRB 2024), Washington D.C., US, January 2024.*
+- type: conference
+  year: 2023
+  title: Bayesian Optimization of Road Pricing using Agent-based Mobility Simulation
+  url: https://orbit.dtu.dk/en/publications/a62e8902-7482-495a-a654-c06bcb1ab62e
+  details: Argyros, D., Liu, R., Seshadri, R., Rodrigues, F., & Lima de Azevedo, C. *11th Symposium of the European Association for Research in Transportation, hEART. Zurich, Switzerland, September 2023.*
+- type: conference
+  year: 2023
+  title: Integrating passenger demand preferences in real-time rail traffic management
+  details: Pascariu, B., Flensburg, J. V., Pellegrini, P., **Lima Azevedo, C**. *23rd Conference of the International Federation of Operational Research Societies - IFORS 2023, Santiago, Chile, July, 2023*
+- type: conference
+  year: 2023
+  title: Reinforcement learning for congestion pricing with day-to-day dynamics
+  details: Lassen, A., Liu, R., Seshadri, R., Rodrigues, F., & **Lima Azevedo, C**. *10th International Symposium on Transportation Data and Modelling, Ispra, Italy, June 2023.*
+- type: conference
+  year: 2023
+  title: Forecasting Parking Search Times Using Big Data
+  url: https://doi.org/10.1007/978-981-19-8361-0_12
+  details: 'Milia, K., Hedengran, M. D., Jansson, T., Rodrigues, F., & **Lima Azevedo, C**. *In Proceedings of the 12th International Scientific Conference on Mobility and Transport: Mobility Innovations for Growing Megacities (pp. 175-197). Singapore: Springer Nature Singapore.*'
+- type: conference
+  year: 2022
+  title: 'Opening the Simulation Box: Towards Explainable Metamodels for Enhanced Air Traffic Management Performance Assessment'
+  details: Riis, C., Antunes, F., Bolic, T., Gurtner, G., Camara Pereira, F., & **Lima Azevedo, C**. *In Transportation Research Board 102nd Annual Meeting. Transportation Research Board (TRB 2023), Washington D.C., US, January 2023.*
+- type: conference
+  year: 2022
+  title: Bayesian active learning with fully Bayesian Gaussian processes
+  url: https://orbit.dtu.dk/en/publications/7578d744-17d9-45b5-91de-a47ed4cae304
+  details: Riis, C., Antunes, F., Hüttel, F., **Lima Azevedo, C.**, & Pereira, F. *Advances in Neural Information Processing Systems (NEURIPS), 35, 12141-12153.*
+- type: conference
+  year: 2022
+  title: Estimating and implementing a Danish activity-based model in SimMobility
+  details: Monteiro, M. M., Seshadri, R., & **Lima Azevedo, C**. *In Proceedings from the 29th Annual Transport Conference, Aalborg August 2022, Denmark.*
+- type: conference
+  year: 2022
+  title: Machine learning til realtidsforudsigelser af oprindelse-til-destination efterspørgsel for jernbaner med smart card og udbudsdata (in Danish)
+  url: https://orbit.dtu.dk/en/publications/c65f3715-a36b-473b-8556-08d1d9b39f3a
+  details: Flensburg, J. V., **Lima Azevedo, C.**, Rodrigues, F., & Cerreto, F. *In Proceedings from the 29th Annual Transport Conference, Aalborg, August 2022, Denmark.*
+- type: conference
+  year: 2022
+  title: Active Learning Metamodelling for R-NEST
+  url: https://orbit.dtu.dk/en/publications/72f07844-b19f-4e32-963f-696748ee41aa
+  details: Sánchez-Cauce, R., Riis, C., Antunes, F., Mocholí, D., Ros, O. G. C., Pereira, F. C., Herranz, R. & **Lima Azevedo, C**. *In 12th SESAR Innovation Days, Budapest, 5-8 December 2022.*
+- type: conference
+  year: 2022
+  title: Explainable Metamodels for ATM Performance Assessment
+  url: https://orbit.dtu.dk/en/publications/8df62d17-9761-421d-b692-c97395cf143d
+  details: Riis, C., Antunes, F., Bolic, T., Gurtner, G., Pereira, F. C., & **Lima Azevedo, C**. *In 12th SESAR Innovation Days, Budapest, 5-8 December 2022.*
+- type: conference
+  year: 2022
+  title: Market Design for Tradable Mobility Credits
+  url: https://doi.org/10.1016/j.trc.2023.104121
+  details: Chen, S., Seshadri, R., **Lima Azevedo, C.**, Akkinepally, A., Liu, R., Araldo, A., Jiang, Y., Ben-Akiva M. *101st Annual Meeting of the Transportation Research Board (TRB 2022), Washington D.C., US, January 2022.*
+- type: conference
+  year: 2022
+  title: 'Managing Network Congestion with a Tradable Credit Scheme: A Trip-Based Macroscopic Fundamental Design Approach'
+  details: Liu, R., Chen, S., Jiang, Y., Seshadri, R., Ben-Akiva, M., and **Lima Azevedo C**. *101st Annual Meeting of the Transportation Research Board(TRB 2022), Washington D.C., US, January 2022.*
+- type: conference
+  year: 2022
+  title: Active Learning for Air Traffic Management Simulation Metamodeling
+  url: https://orbit.dtu.dk/en/publications/65c5f353-e2fc-4fea-bd9d-430dce8c94a3
+  details: Riis, C., Antunes, F., Gurtner, G., Camara Pereira, F., Delgado, L., **Lima Azevedo C**. *101st Annual Meeting of the Transportation Research Board(TRB 2022), Washington D.C., US, January 2022.*
+- type: conference
+  year: 2022
+  title: 'Carsharing Subscription Preferences: The Case of Copenhagen, Munich, and Tel Aviv-Yafo'
+  url: https://orbit.dtu.dk/en/publications/60efff8b-ea41-4737-8584-0f66f23b0a2b
+  details: Monteiro, M., **Lima Azevedo, C.**, Kamargianni, M., Shiftan, Y., Galtzur, A., Shoshany Tavory, S., Antoniou, C., Cantelmo G. *101st Annual Meeting of the Transportation Research Board (TRB 2022), Washington D.C., US, January 2022.*
+- type: conference
+  year: 2022
+  title: 'The Impact of the COVID-19 Pandemic on Mode Choices: Findings from Copenhagen, Munich, and Tel Aviv'
+  details: Song, F., Kamargianni, M., Monteiro, M., **Lima Azevedo, C.**, Cantelmo, G., Antoniou, C., Ezzati Amini, R., Shiftan, Y., Galtzur A. *101st Annual Meeting of the Transportation Research Board (TRB 2022), Washington D.C., US, January 2022.*
+- type: conference
+  year: 2022
+  title: Interpretable Embeddings for Representing Categorical Variables within Discrete Choice Models
+  details: Arkoudi,I, **Lima Azevedo, C.**, Pereira, F.C. *7th International Choice Modelling Conference (ICMC), Reykjavik, Iceland, May 23-25, 2022.*
+- type: conference
+  year: 2022
+  title: Forecasting parking search times using big data. mobil.TUM 2022 – 12th International Scientific Conference on Mobility and Transport
+  url: https://doi.org/10.1007/978-981-19-8361-0_12
+  details: Milia, K., Duus Hedengran, M., Jansson, T., Rodrigues F., **Lima Azevedo C**. *5 – 7 April 2022, Singapore*
+- type: conference
+  year: 2021
+  title: Active Learning Metamodels for ATM Simulation Modeling
+  url: https://orbit.dtu.dk/en/publications/4a5c3bff-afa9-452f-b251-7f2ac6aaf4e6
+  details: Riis, C., Camara Pereira, F., Antunes, F., Delgado, L., Gurtner, G., **Lima Azevedo C**. *11th SESAR Innovation Days.*
+- type: conference
+  year: 2021
+  title: Bayesian Optimization of Area-based Road Pricing
+  url: https://doi.org/10.1109/MT-ITS49943.2021.9529326
+  details: Liu, R., Jiang, Y., & **Lima Azevedo, C.** L. *7th International IEEE Conference on Models and Technologies for Intelligent Transportation Systems 16 – 17 June 2021.*
+- type: conference
+  year: 2021
+  title: Optimal Multimodal and Multicriteria Path Set Computation for Dynamic Trip Planning in Mobility as a Service Systems
+  details: Yfantis, L., Chaniotakis, E., Perez Dominguez, F., Rasmussen, T., Kamargianni, M & **Lima Azevedo, C**. *100th Annual Meeting of the Transportation Research Board, January, 2021.*
+- type: conference
+  year: 2021
+  title: Generation of Activity Sequences using Dynamic Bayesian Networks with Latent Variables
+  details: Arkoudi, I., Viegas de Lima, I., **Lima Azevedo, C.** & Pereira, F. C. *100th Annual Meeting of the Transportation Research Board, January, 2021.*
+- type: conference
+  year: 2020
+  title: A blockchain-based user-centric emission monitoring and trading system for multi-modal mobility
+  url: https://doi.org/10.1109/FISTS46898.2020.9264892
+  details: Eckert, J., López, D., **Lima Azevedo, C.**, Farooq, B. *IEEE Forum on Integrated and Sustainable Transportation System (FISTS), Delft, The Netherlands November 2020.*
+- type: conference
+  year: 2020
+  title: 'Household Embeddings: Introducing continuous vector representations for car ownership on a household level'
+  details: Arkoudi, I., **Lima Azevedo, C.**, Pereira, F.C. *8th Symposium of the European Association for Research in Transportation (hEART), September 2020.*
+- type: conference
+  year: 2020
+  title: Simulation and Evaluation of Automated Mobility On-Demand Strategies in Dense Transit-Oriented Cities
+  details: Oke, J., Akkinepally, A.P., Aboutaleb,Y.M., Chen, S., Xie, X., Nahmias-Biran, B.H., **Lima Azevedo, C.**, Zegras, C.P., Ferreira, J., Ben-Akiva M. *99th Annual Meeting of the Transportation Research Board (TRB 2020), Washington D.C., US, January 2020.*
+- type: conference
+  year: 2020
+  title: 'Who Benefits from Autonomous Vehicles (AVs)?: Equity Aspects of AV Policies in a Full-Scale Prototype Cities'
+  details: Nahmias-Biran, B.H., Oke, J., Kumar, N., Akkinepally, A.P., **Lima Azevedo, C.**, Zegras, C.P., Bem-Akiva, M. *99th Annual Meeting of the Transportation Research Board (TRB 2020), Washington D.C., US, January 2020.*
+- type: conference
+  year: 2019
+  title: 'Tripod: an Online Choice-Based Recommender System, INFORMS Annual Meeting, Seattle WA, U.S., October 2019.'
+  details: Danaf, M., Xie, Y., **Lima Azevedo, C.**, Atasoy, B., Ben-Akiva M.
+- type: conference
+  year: 2019
+  title: Analysis of Future Mobility On-Demand Systems in Global Urban Typologies
+  details: Oke, J., Aboutaleb, Y.M., Akkinepally, A.P., **Lima Azevedo, C.**, Chen, S., Xie, Y., Zegras, C. P., Ferreira, J., Ben-Akiva, M. *INFORMS Annual Meeting, Seattle WA, U.S., October 2019.*
+- type: conference
+  year: 2019
+  title: Formulation And Solution Approach For Calibrating Activity-based Travel Demand Model-system Via Microsimulation
+  url: https://doi.org/10.1016/j.trc.2020.102650
+  details: Chen, S., Akkinepally, A.P.,, **Lima Azevedo, C.**, Ben-Akiva, M. *INFORMS Annual Meeting, Seattle WA, U.S., October 2019.*
+- type: conference
+  year: 2019
+  title: 'Towards Robust Deep Reinforcement Learning for Traffic Signal Control: Demand Surges, Incidents and Sensor Failures'
+  url: https://doi.org/10.1109/ITSC.2019.8917451
+  details: Rodrigues, F., **Lima Azevedo, C.** IEEE 22nd Intelligent Transportation Systems Conference, ITSC 2019, Auckland, New Zealand, 27-30 October 2019.
+  links:
+  - label: pre-print
+    url: https://arxiv.org/abs/1904.08353
+- type: conference
+  year: 2019
+  title: 'Um modelo de avaliação de sistemas de veículos autónomos partilhados: peer-to-peer vs. fleet-based systems (in portuguese)'
+  details: Martins, A., Moura, F., **Lima Azevedo, C**. *Congresso Rodoviário Português, Lisbon, Portugal, May 2019.*
+- type: conference
+  year: 2019
+  title: Incorporating the mobility as a service concept into transport modelling and simulation frameworks
+  url: https://orbit.dtu.dk/en/publications/b9ed16e5-893f-4a85-995c-ac024d643002
+  details: Kamargianni, M., Yfantis, L., Muscat, J., **Lima Azevedo, C.**, Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+  links:
+  - label: pre-print
+    url: http://discovery.ucl.ac.uk/10061860/
+- type: conference
+  year: 2019
+  title: 'Understanding Preferences for Automated Mobility on Demand Using a Smartphone-Based Stated Preference Survey: A Case Study of Singapore'
+  url: https://orbit.dtu.dk/en/publications/31482d71-f9fb-43ad-a9a4-32f73acb6a23
+  details: Seshadri, R., Kumarga, L., Atasoy, B., Danaf, M., Xie, Y., **Lima Azevedo, C.**, Zhao, F., Zegras, C., Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+- type: conference
+  year: 2019
+  title: 'From traditional to automated mobility on demand: a comprehensive framework for modeling mobility on demand services in SimMobility'
+  details: Nahmias-Biran, B.H, Oke, J., **Lima Azevedo, C.**, Kumar, N., Araldo, A., Basak, K., Seshadri, R., Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+- type: conference
+  year: 2019
+  title: 'System-level optimization of multi-modal transportation networks for energy efficiency using personalized incentives: formulation, implementation and performance'
+  url: https://doi.org/10.1177/0361198119864906
+  details: Araldo, A., Gao, S., Seshadri, R., **Lima Azevedo, C.**, Ghafourian, H., Sui, Y., Ayaz, S., Sukhin, D., Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+- type: conference
+  year: 2019
+  title: Accessibility and energy consumption evaluation under different strategies of mobility on-demand deployment
+  details: Gross, E., Oke, J., Prakash, A. A., Nahmias-Biran, B.H., **Lima Azevedo, C.**, Zegras, C., Ferreira, J., Ben-Akiva, M. *98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.*
+- type: conference
+  year: 2019
+  title: 'Behavioral modeling of on-demand mobility services: general framework and application to sustainable travel incentives'
+  details: Xie, Y., Danaf, M., Atasoy, B., Jeong, K., Seshadri, R., **Lima Azevedo, C.**, Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+- type: conference
+  year: 2019
+  title: Calibrating activity-based travel demand model-systems via microsimulation
+  details: Chen, S., Prakash, A., **Lima Azevedo, C.**, Ben-Akiva, M. 98th Annual Meeting of the Transportation Research Board (TRB 2019), Washington D.C., US, January 2019.
+- type: conference
+  year: 2018
+  title: Integrated simulation of activity-based demand and multi-modal dynamic supply for energy assessment
+  url: http://web.mit.edu/cami/Public/CLA_SimMobBoston_ieee_2018_preprint.pdf
+  details: Fournier, N., Chen, S., Viegas de Lima, I. H., Needell, Z., Deliali, A., Araldo, A., Prakash, A. A., **Lima de Azevedo, C.**, Christofa, E., Trancik, J., Ben-Akiva, M. ​The 21st IEEE International Conference on Intelligent Transportation Systems (IEEE-ITSC), ​November 4-7,Maui, Hawaii, USA.
+- type: conference
+  year: 2018
+  title: Road safety in an uncertain technological future
+  details: Martins, A., Moura, F.,**Lima de Azevedo, C.**. 31st International Co-operation on Theories and Concepts in Traffic Safety (ICTCT), ​October 25-26, Porto, Portugal.
+- type: conference
+  year: 2018
+  title: 'Modeling travel behavior with on-demand systems: the case of real-time sustainable travel incentives'
+  url: https://orbit.dtu.dk/en/publications/a365c98d-68e6-45c4-a9eb-aa6ca5a87d4a
+  details: Xie, Y., Danaf, M., **Lima Azevedo, C.**, Prakash, A., Atasoy, B., Jeong, K., Seshadri, R., Ben-Akiva M. *7th Symposium of the European Association for Research in Transportation (hEART), September 2018.*
+- type: conference
+  year: 2018
+  title: Context-aware stated preferences surveys for smart mobility
+  url: http://web.mit.edu/cami/Public/CLA_FMODbehavior_iatbr_2018_extabs.pdf
+  details: Danaf, M., Atasoy, B., **Lima de Azevedo, C.**, Ding-Mastera, J., Abou-Zeid, M., Cox., N., Zhao, F., Ben-Akiva, M. 15th International Conference on Travel Behaviour Research, Santa Barbara, California, US, July 15-22, 2018 \[extended abstract\].
+- type: conference
+  year: 2018
+  title: Discovering robust urban mobility futures via agent-based simulation in prototype cities
+  details: Oke, J., Gross, E., **Lima Azevedo, C.**, Zegras, C., Ferreira, J., Ben-Akiva, M. *7th Conference on Innovations in Travel Modeling, Transportation Research Board. Atlanta, GE, US, June, 2018.*
+- type: conference
+  year: 2018
+  title: An integration of population synthesis methods for agent-based microsimulation
+  url: http://web.mit.edu/cami/Public/CLA_Population_TRB_2018_extabs.pdf
+  details: Fournier, N., Christofa, E., Prakash, A., **Lima Azevedo, C.** 97th Annual Meeting of the Transportation Research Board (TRB 2018), Washington D.C., US, January 2018 \[extended abstract\].
+- type: conference
+  year: 2018
+  title: 'Flexible Framework for Agent-Based Simulation: Application to the Greater Boston Area'
+  details: Viegas de Lima, I. H., Danaf, M., **Lima Azevedo, C.**, Akkinepally, A., Ben-Akiva, M. *97th Annual Conference of the Transportation Research Board, Washington D.C., US, January 2018.*
+- type: conference
+  year: 2018
+  title: Implementation and Policy Applications of AMoD in multi-modal activity-driven agent-based urban simulator SimMobility
+  url: http://web.mit.edu/cami/Public/CLA_SmartMobVsPT_TRB_2018_preprint.pdf
+  details: Basu, R., Araldo, A., Prakash, A., Basak, K., Seshadri, R., Nahmias, B., Deshmunkh, N., Kumar, N., **Lima Azevedo, C.**, Ben-Akiva, C. 97th Annual Meeting of the Transportation Research Board (TRB 2018), Washington D.C., US, January 2018.
+  links:
+  - label: poster
+    url: http://web.mit.edu/cami/Public/CLA_SmartMobVsPT_TRB_2018_poster.pdf
+- type: conference
+  year: 2018
+  title: Global urban typology discovery with confirmatory latent class choice model
+  url: http://web.mit.edu/cami/Public/CLA_Typologies_TRB_2018_extabs.pdf
+  details: Oke, J., Han, Y., **Lima Azevedo, C.**, Zegras, C., Ferreira, J., Ben-Akiva, M. 97th Annual Meeting of the Transportation Research Board (TRB 2018), Washington D.C., US, January 2018, \[extended abstract\].
+- type: conference
+  year: 2018
+  title: 'Tripod: Sustainable Travel Incentives with Prediction, Optimization and Personalization'
+  url: http://web.mit.edu/cami/Public/CLA_Tripod_TRB_2018_preprint.pdf
+  details: '**Lima Azevedo, C.**, Seshadri, C., Gao, S., Atasoy, B., Prakash, A., Christofa, E., Zhao, F., Trancik, J., Ben-Akiva, M. 97th Annual Meeting of the Transportation Research Board (TRB 2018), Washington D.C., US, January 2018.'
+- type: conference
+  year: 2017
+  title: Simulation of Demand and Supply of Urban Rail in a Multimodal Environment
+  url: http://web.mit.edu/cami/Public/CLA_Rail_ITSC_IEEE_2017_preprint.pdf
+  details: Koh, K., **Lima Azevedo, C.**, Basak, K., Ben-Akiva, M. IEEE 20th International Conference on Intelligent Transportation Systems (IEEE-ITSC), Yokohama, Japan, October 16-19, 2017.
+- type: conference
+  year: 2017
+  title: Discovering Urban Typologies for future mobility scenarios in prototype cities
+  details: Oke, J., Han, Y., **Lima Azevedo C.**, Zegras, C. P., Ben-Akiva, M. *INFORMS 2017 Annual Conference in Houston, TX, USA, October, 2017*
+- type: conference
+  year: 2017
+  title: The use of Extreme Value theory to predict different types of accidents during passing maneuvers
+  url: http://web.mit.edu/cami/Public/CLA_ExVal_RSS2017_preprint.pdf
+  details: Cavadas J., **Lima Azevedo, C.** , Farah, H. 2017 Road Safety & Simulation Conference, Deft, The Netherlands, October 17-19, 2017.
+- type: conference
+  year: 2017
+  title: A Modeling and Simulation Framework for Taxi Driver Behavior and Centralized Taxi Operations
+  url: http://web.mit.edu/cami/Public/CLA_Taxi_hEART_2017_extabs
+  details: Nahmias-Biran, B.H., Kumar, N., Prakash, A., Seshadri, R., **Lima Azevedo, C.**, Ben-Akiva, M. 6th hEART Conference, Haifa, Israel, September 12-14, 2017.
+- type: conference
+  year: 2017
+  title: 'SimMobility Short-term: An Integrated Mobility Microscopic Simulator'
+  details: '**Lima Azevedo, C.**, Basak, K., Zhiyong, W., Hetu, S., Marczuk, K. A., Soh, H., Peh, L. S., Frazzoli, E., Toledo, T., Ben-Akiva, M. *96th Annual Conference of the Transportation Research Board, Washington D.C., US, January 2017.*'
+- type: conference
+  year: 2017
+  title: 'Evaluating Disruption Management Strategies in Rail Transit using SimMobility Mid-term Simulator: A study of Singapore MRT North-East line'
+  url: http://web.mit.edu/cami/Public/CLA_Disruption_MRT_TRB_2017.pdf
+  details: Adnan, M., Pereira, F., **Lima Azevedo, C.**, Basak, K., Koh, K., Loganathan, H., Huai Peng, Z., Ben-Akiva, M. (#17-06587). 96th Annual Meeting of the Transportation Research Board (TRB 2017), Washington D.C., US, January 2017.
+- type: conference
+  year: 2016
+  title: Simulation Framework for Rebalancing of Autonomous Mobility on-Demand Systems
+  url: http://web.mit.edu/cami/Public/CLA_AMOD_Rebal_ICTTE_2016.pdf
+  details: Marczuk, M., Soh, **Lima Azevedo, C.**, Lee, D.H., Frazzoli, E. 5th International Conference on Transportation and Traffic Engineering (ICTTE 2016), Lucerne, Switzerland, July 6-10, 2016.
+  links:
+  - label: post
+    url: /autonomous-mobility-on-demand-rebalancing-in-singapore
+- type: conference
+  year: 2016
+  title: 'SimMobility: A Multi-Scale Integrated Agent-based Simulation Platform'
+  url: http://web.mit.edu/cami/Public/CLA_SimMobility_Framework_TRB_2016.pdf
+  details: Adnan, M, Pereira, F. C., **Lima Azevedo, C.**, Basak, K., Lovric, M., Raveau, S., Zhu, Y., Ferreira, J., Zegras, C., Ben-Akiva, M. E. 95th Annual Meeting of the Transportation Research Board (TRB 2016). Washington D.C., US, January 10-14, 2016.
+- type: conference
+  year: 2016
+  title: Microsimulation of Demand and Supply of Autonomous Mobility On-Demand
+  details: '**Lima Azevedo, C.**, Marczuk, K., Raveau, S., Soh, H., Adnan, M., Basak, K., Loganathan, H., Deshmunkh, N., Lee, D. H., Frazzoli, E., Ben-Akiva, M. E. *95th Annual Conference of the Transportation Research Board, January 2016.*'
+- type: conference
+  year: 2015
+  title: 'An integrated sensing-based urban freight data collection framework: methodology and pilot projects in Singapore'
+  url: http://web.mit.edu/cami/Public/CLA_Freight_data_URBE_2015.pdf
+  details: Teo, J., Marzano, V., **Lima Azevedo, C.**, Cheah, L., Zhao, F., Santos, J., Lee, Y. & Ben-Akiva, M. Urban Freight and Behavior Change Conference (URBE 2015). Rome, Italy. October 1-2, 2015.
+- type: conference
+  year: 2015
+  title: Safety analysis of passing manoeuvres using extreme value theory
+  details: Farah, H., **Lima Azevedo, C**. *Road Safety & Simulation International Conference. Orlando, FL, U.S., October 2015.*
+- type: conference
+  year: 2015
+  title: Using extreme value theory for the prediction of head-on collisions during passing manoeuvres IEEE 18th International Conference on Intelligent Transportation Systems, Las Palmas, Spain, 15-18 September 2015.
+  url: https://doi.org/10.1109/ITSC.2015.53
+  details: '**Lima Azevedo, C.**, Farah, H.'
+- type: conference
+  year: 2015
+  title: 'W–SPSA in practice: Approximation of weight matrices and calibration of traffic simulation models'
+  url: http://www.sciencedirect.com/science/article/pii/S2352146515000812
+  details: Antoniou, C., **Lima Azevedo, C.**, Lu, L., Pereira, F., Ben-Akiva, M. E. 21st International Symposium on Transportation and Traffic Theory (ISTTT 2015). Kobe, Japan, 5-7 August 2015. Transportation Research Procedia, Volume 7, Pages 233–253.
+- type: conference
+  year: 2015
+  title: 'Autonomous Mobility on Demand in SimMobility: Case Study of the Central Business District in Singapore'
+  url: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7274567
+  details: Marczuk, K. A., Soh, H., **Lima Azevedo, C.**, Frazzoli, E. and Lee, D. H. 7th IEEE International Conference on Cybernetics and Intelligent Systems and 7th IEEE International Conference on Robotics, Automation and Mechatronics (IEEE CIS-RAM 2015). Angkor Wat, Cambodia, 15-17 July 2015.
+  links:
+  - label: pre-print
+    url: http://web.mit.edu/cami/Public/CLA_AMOD_SG_CISRAM_IEEE_2015_preprint.pdf
+- type: conference
+  year: 2015
+  title: Modeling crash probability in large traffic simulators
+  url: http://web.mit.edu/cami/Public/CLA_Crash_Probability_Simulation_ISHGD_2015.pdf
+  details: '**Lima Azevedo, C.**, Cardoso, J., Ben-Akiva, M.E. 5th International Symposium on Highway Geometric Design (ISHGD 2015). June 22-24, 2015. Vancouver, BC, Canada.'
+- type: conference
+  year: 2015
+  title: Probabilistic Safety Analysis using Traffic Microscopic Simulation
+  details: '**Lima Azevedo, C.**, Cardoso, J., Ben-Akiva, M. *94th Annual Meeting of the Transportation Research Board. Washington D.C., US, 11-15 January 2015.*'
+- type: conference
+  year: 2015
+  title: Dealing with uncertainty in detailed calibration of traffic simulation models for safety assessment
+  details: '**Lima Azevedo, C.**, Ciuffo, B., Moura, F., Cardoso, J., Ben-Akiva, M. *94th Annual Meeting of the Transportation Research Board. Washington D.C., US, 11-15 January 2015.*'
+- type: conference
+  year: 2014
+  title: Applying graph theory to automatic vehicle tracking by remote sensing
+  url: http://web.mit.edu/cami/Public/CLA_Graph_Theory_Tracking_TRB_2014.pdf
+  details: '**Lima Azevedo, C.**, Cardoso, J., Ben-Akiva, M. 93th Annual Meeting of the Transportation Research Board (TRB 2014). Washington D.C., USA, 12-18 January 2014.'
+- type: conference
+  year: 2013
+  title: Modeling reaction time within a traffic simulation model
+  url: http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6728249&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6728249
+  details: Basak, K., Hetu, S., Li, Z., **Lima Azevedo C.**, Loganthan, H., Toledo, T., Xu, Y., Peh, L. S., Ben-Akiva, M., Proceedings of the 16th International IEEE Conference on Intelligent Transportation Systems (IEEE-ITSC 2013), October 2013.
+- type: conference
+  year: 2012
+  title: Automatic vehicle trajectory extraction by aerial remote sensing
+  details: '**Lima Azevedo, C**. *3rd MITPortugal Annual Conference. Guimarães, Portugal (2nd prize for best poster and presentation), May 2012.*'
+- type: conference
+  year: 2011
+  title: 'The Application of IHSDM for the Safety Evaluation of Foreign Road Designs: the Case of a Portuguese Rural Highway'
+  details: '**Lima Azevedo, C.** and Cardoso, J. L. *90th Annual Meeting of the Transportation Research Board. Washington D.C.,US,January 2011.*'
+- type: conference
+  year: 2010
+  title: Comparative Safety Analysis of a Two-Lane Two-Way Major Highway, Using IHSDM and the Portuguese Procedure
+  url: http://www.4ishgd.valencia.upv.es/index_archivos/83.pdf
+  details: Cardoso J. L., Lisboa Santos J. and **Lima Azevedo C.**, Proceedings of the 4th International Symposium on Highway Geometric Design (ISHGD 2010). Valencia, Spain, 2 to 5 June 2010.
+- type: conference
+  year: 2009
+  title: 'Estimation of Annual Traffic Volumes: A model for Portugal'
+  url: http://web.mit.edu/cami/Public/CLA_Annual_Traffic_Volumes_YRS_2009.pdf
+  details: '**Lima Azevedo C.**, Presented at the Young Researchers Seminar (YRS 2009). Turin, Italy, June 2009.'
+- type: conference
+  year: 2008
+  title: Safety performance indicators for the road network
+  url: http://abstracts.aetransport.org/paper/index/id/2974/confid/14
+  details: Weijermars W., **Lima Azevedo C.**, Gitelman V. and Papadimitriou E., Proceedings of the European Transport Conference 2008 (ETC 2008). The Netherlands, October 2008.
+- type: conference
+  year: 2008
+  title: Introducing safety on advanced traveller information systems and consequent impact on drivers’ route choices
+  details: Yannis G., Spyropoulou I., Arsénio E., **Lima Azevedo C.**, Golias J. *10th International Conference on Application of Advanced Technologies in Transportation (AATT 2008). Greece, May 2008.*
+- type: talk
+  year: 2025
+  title: Sensing emotions in mobility patterns and urban spaces
+  details: '**Lima Azevedo C**. *Street4All Seminar, Keynote. 5th December, 2025, Lisbon, Portugal (online).*'
+- type: talk
+  year: 2025
+  title: Sensing and Machine Learning in travel behaviour and emotions
+  details: '**Lima Azevedo C**. *Guest Seminar at University of Chile, 12th September 2025, Santiago, Chile (online).*'
+- type: talk
+  year: 2025
+  title: Individual sensing and modelling of activity, mobility and emotional patterns
+  details: '**Lima Azevedo C**. *GRETTIA Seminar Series, University Gustave Eiffel, 9th December 2024, Champs-sur-Marne, France.*'
+- type: talk
+  year: 2025
+  title: Future Demand Management in Multimodal Transportation
+  details: '**Lima Azevedo C**. *Presentation to ERTICO - ITS Europe Strategy Committee. 29th April 2025, Brussels, Belgium.*'
+- type: talk
+  year: 2024
+  title: Assessing the impacts of tradable credit schemes through agent-based simulation
+  details: '**Lima Azevedo C**. *Co-authors: Liu R., Argyros, D., Seshadri, R., Jiang, Y. and Ben-Akiva, M. E. In the SimMobility Workshop, hEART 2024, 13th June 2024, Helsinki, Finland.*'
+- type: talk
+  year: 2024
+  title: 'SimDanmark: Overview of SimMobility application in Denmark'
+  details: '**Lima Azevedo C**. *Co-authors: Monteiro, M., Seshadri, R., Lahoz, L., and Sfeir, G. In the SimMobility Workshop, hEART 2024, 13th June 2024, Helsinki, Finland.*'
+- type: talk
+  year: 2024
+  title: Multimodal transportation demand models
+  details: '**Lima Azevedo, C**. *Invited seminar at Metroselskabet, 29th May 2024, Copenhagen, Denmark.*'
+- type: talk
+  year: 2024
+  title: Measuring emotions in urban spaces
+  details: '**Lima Azevedo, C**. *Invited talk at the Seamless sustainable everyday urban mobility (EASIER) project Final event. 22th April 2024, Copenhagen, Denmark.*'
+- type: talk
+  year: 2024
+  title: Machine learning for planning and decision making
+  details: '**Lima Azevedo, C**. *Crash course at the SortedMobility Final event, 13th May 2024, SNCF, Paris, France.*'
+- type: talk
+  year: 2023
+  title: Multimodal transportation system simulation
+  details: '**Lima Azevedo, C**. *Lecture 3, Mini course 3 at the 10th International Conference on Railway Operations Modelling and Analysis (ICROMA), Railbelgrade. 25th April, 2023, Belgrade, Serbia.*'
+- type: talk
+  year: 2022
+  title: Machine learning for planning and decision making
+  details: '**Lima Azevedo, C**. *Advanced transportation, Logistics and Supply Chain Management Program, Venice International University. 1st July 2022, Venice, Italy.*'
+- type: talk
+  year: 2021
+  title: Managing congestion with tradable mobility credits
+  details: '**Lima Azevedo, C**. *Guest Lecture Series, MaaS Lab, University College London 29th June 29, 2021, London, UK, (online).*'
+- type: talk
+  year: 2020
+  title: What about demand?
+  details: '**Lima Azevedo, C**. *Evaluating automated mobility on-demand in different urban typologies via integrated demand-supply simulation. Invited talk at the IEEE-ITSC Autonomous and Connected Transportation Systems Workshop, 20th September 2020 (online).*'
+- type: talk
+  year: 2020
+  title: Urban Mobility Modelling and Simulation under Future Smart Mobility
+  url: https://www.uantwerpen.be/en/research-groups/transport-and-regional-economics/news-and-events/events-and-conferences/tpr-lectures-series/
+  details: Invited Lecture at the University of Antwerp TPR Lectures series on “Future Transport Research”. December 19, Antwerp, Belgium.
+- type: talk
+  year: 2019
+  title: A novel global urban typology framework for sustainable mobility futures
+  url: https://www.transport.dtu.dk/kalender/2019/06/transport-summit-2019?id=8ca4e214-1bcc-4dc0-8221-e300ab0d6fc4
+  details: Presentation at the DTU Transport Summit 2019. June 4, Lyngby, Denmark.
+- type: talk
+  year: 2018
+  title: Dynamic mobility management with tokens
+  details: '**Lima Azevedo, C**. *Invited lecture at the Singapore-MIT-Alliance for Research and Technology. 21st November 2018, Singapore.*'
+- type: talk
+  year: 2018
+  title: Modeling demand-supply interactions of smart mobility in urban environments
+  details: '**Lima Azevedo, C**. *Transport Summit DTU 2018, 31st May 2018, Lyngby, Denmark.*'
+- type: talk
+  year: 2017
+  title: 'Tripod: Sustainable Travel Incentives with Prediction, Optimization and Personalization'
+  url: http://www.arpae-summit.com/
+  details: Presentation at the Technology Showcase. ARPA-e Annual Summit, Department of Energy. February 26-28, Washington D.C., US.
+- type: talk
+  year: 2017
+  title: 'SimMobility Freight: a multi-scale agent-based modelling framework for urban freight distribution'
+  details: '**Lima Azevedo C**. *IEEE Models and Technology for Intelligent Transportation Systems. 26th June 2017, Naples, Italy.*'
+- type: talk
+  year: 2017
+  title: 'Tripod: Sustainable Travel Incentives with Prediction, Optimization and Personalization'
+  url: http://www.arpae-summit.com/
+  details: Presentation at the Technology Showcase. ARPA-e Annual Summit, Department of Energy. February 26-28, Washington D.C., US.
+- type: talk
+  year: 2016
+  title: Simulation de la mobilité autonome sur demande (in French)
+  details: '**Lima Azevedo, C**. *Entretiens Jacques Cartier 2016. November 22, 2016, Lyon, France.*'
+- type: talk
+  year: 2016
+  title: Mobility Electronic Market for Optimized Travel
+  details: '**Lima Azevedo C**. *ARPA-e Annual Summit, Department of Energy. February 29-March 3, 2016, Washington D.C., US.*'
+- type: talk
+  year: 2016
+  title: Simulating Autonomous Mobility on Demand
+  details: '**Lima Azevedo, C.**, Marczuk, K. *Future Urban Mobility Symposium 2016, July 25-26, 2016, Singapore.*'
+- type: talk
+  year: 2015
+  title: 'W–SPSA in practice: Approximation of weight matrices and calibration of traffic simulation models'
+  url: https://www.youtube.com/watch?v=WAWSIJsyBME
+  details: '**Lima Azevedo, C.** *TFT Webinars – Transportation Research Board Committee on Traffic Flow Theory and Characteristics (AHB45), 18 December 2015.*'
+  links:
+  - label: slides
+    url: https://drive.google.com/file/d/0B5WAz6FeeIJmWE5NUnpjODRralU/view?usp=sharing
+  - label: video
+    url: https://www.youtube.com/watch?v=WAWSIJsyBME
+- type: talk
+  year: 2015
+  title: 'Simulating intelligent intersections: driving behavior, control and applications'
+  details: '**Lima Azevedo, C.**, Tachet des Combes, R., Deshmukh, N. *Future Urban Mobility Symposium 2015, July 6-7, 2015, Singapore.*'
+- type: talk
+  year: 2015
+  title: Analysis of traffic safety using microscopic simulation
+  details: '**Lima Azevedo, C**. *Future Urban Mobility Symposium 2015, July 6-7, 2015, Singapore.*'
+- type: talk
+  year: 2015
+  title: Autonomous Mobility on Demand case study
+  details: '**Lima Azevedo, C**. *Future Urban Mobility Symposium 2015, July 6-7, 2015, Singapore.*'
+- type: talk
+  year: 2015
+  title: 'Microsimulation of Mobility Demand and Supply with Autonomous Vehicles: Framework, Models and Mobility-on-Demand Case Study'
+  details: '**Lima Azevedo, C.**, Raveau, S., Adnan, M., Marczuk, K., Basak, K., Ben-Akiva, M. E. *14th International Conference on Travel Behavior Research. 19-23 July 2015, Windsor, UK.*'
+- type: talk
+  year: 2015
+  title: 'A state-of-the-art integrated simulation platform: case-study of autonomous mobility on-demand'
+  details: '**Lima Azevedo, C**. *2015 MIT-Portugal Conference, 19 June 2015, Lisbon, Portugal.*'
+- type: talk
+  year: 2013
+  title: 'Global sensitivity analysis of high dimensional traffic micro-simulation models: a multistep approach'
+  details: '**Lima Azevedo, C.**, Ciuffo, B. *7th International Conference on Sensitivity Analysis of Model Output. July 1-4, 2013, Nice, France.*'
