@@ -1,12 +1,12 @@
 name: Carlos Lima Azevedo
-tagline: Associate Professor, DTU
+tagline: Associate Professor, DTU Management
 photo: /assets/uploads/2018/07/Carlos-Lima-De-Atevedo-2-copy-2-84x84.png
 about_title: About me
 about_subtitle: professional profile<br/> and research interests
 phone: (+45) 452 51545
 location:
-  label: DTU,116
-  url: https://www.google.dk/maps/place/Technical+University+of+Denmark/@55.7855742,12.521381,15z/data=!4m5!3m4!1s0x0:0xcf045cde0449c6c5!8m2!3d55.7855742!4d12.521381
+  label: DTU, Building 358, Room 169
+  url: https://www.google.com/maps/search/?api=1&query=Akademivej+358,+2800+Kongens+Lyngby
 email: climaz@dtu.dk
 links:
 - label: scholar
@@ -15,3 +15,6 @@ links:
 - label: linkedin
   url: https://www.linkedin.com/in/camilimaz
   icon: /assets/uploads/2014/11/images-22x22.jpeg
+- label: orcid
+  url: https://orcid.org/0000-0003-3902-6569
+  icon: /assets/img/id-badge.svg

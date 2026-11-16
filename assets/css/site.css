@@ -8,3 +8,9 @@
 .par_el iframe { max-width: 100%; }
 .par_el img { max-width: 100%; height: auto; }
 body.custom-background { background-image: url("../perfectcv/img/body-bg.png"); background-repeat: repeat; }
+.student_group { margin-top: 18px; }
+.student { margin-bottom: 12px; }
+.student_name { color: #464646; font-weight: bold; }
+.msc_list summary { cursor: pointer; color: #c21900; margin-bottom: 8px; }
+.msc_list ul { margin-left: 18px; }
+.msc_list li { margin-bottom: 6px; }

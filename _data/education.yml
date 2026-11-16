@@ -1,15 +1,18 @@
 - period: '2014'
   title: PhD in Transportation Systems
-  place: Instituto Superior Técnico, University of Lisbon, MIT-Portugal
+  place: Instituto Superior Técnico, University of Lisbon — MIT-Portugal Program
   details:
-  - visiting Massachusetts Institute of Technology (2009 -2010)
-  - with João Cardoso (LNEC), Moshe Ben-Akiva (MIT) & Filipe Moura (IST)
+  - 'Thesis: “Probabilistic Safety Analysis using Traffic Microscopic Simulation”'
+  - 'Supervisors: João Cardoso (LNEC), Moshe Ben-Akiva (MIT) & Filipe Moura (IST)'
+  - Visiting student at the Massachusetts Institute of Technology (2009, 2010)
 - period: '2008'
-  title: MSc in Transportation Engineering
+  title: MSc in Transportation
   place: Instituto Superior Técnico, University of Lisbon
+  details:
+  - 'Thesis: “Estimation of Annual Traffic Volumes: A model for Portugal”'
 - period: '2004'
   title: Licentiate in Structural Engineering
   place: Instituto Superior Técnico, University of Lisbon
   details:
-  - 5yrs (MSc equivalent)
-  - visiting École Nationale des Ponts et Chaussées, France (Spring 2004)
+  - 5 years (MSc equivalent)
+  - Visiting student at École Nationale des Ponts et Chaussées, France (Spring 2004)

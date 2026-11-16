@@ -1,15 +1,17 @@
 # Top menu. Links starting with "#" jump to a section of the home page.
 - title: About me
   url: "#about_me"
-- title: Education
-  url: "#education"
 - title: Experience
   url: "#experience"
 - title: Publications
   url: "#publications"
-- title: Research
-  url: "#research"
-- title: Contact me
+- title: Projects
+  url: "#projects"
+- title: Students
+  url: "#students"
+- title: Teaching
+  url: "#teaching"
+- title: Contact
   url: "#contact"
 - title: Blog
   url: /blog/

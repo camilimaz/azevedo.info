@@ -1,0 +1,21 @@
+{%- for g in site.data.students.groups %}
+<p class="student_group"><strong>{{ g.title }}</strong></p>
+{%- for s in g.people %}
+<p class="student">
+  {% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}<span class="student_name">{{ s.name }}</span>{% endif %} &mdash; {{ s.period }}{% if s.at %}, {{ s.at }}{% endif %}{% if s.role %} ({{ s.role }}){% endif %}
+  {%- if s.topic %}<br><em>{{ s.topic }}</em>{% endif %}
+  {%- if s.now %}<br>Now: {{ s.now }}{% endif %}
+</p>
+{%- endfor %}
+{%- endfor %}
+{%- if site.data.students.msc %}
+<p class="student_group"><strong>MSc theses supervised</strong></p>
+<details class="msc_list">
+  <summary>Show all {{ site.data.students.msc.size }} MSc theses</summary>
+  <ul>
+  {%- for t in site.data.students.msc %}
+    <li>{{ t }}</li>
+  {%- endfor %}
+  </ul>
+</details>
+{%- endif %}

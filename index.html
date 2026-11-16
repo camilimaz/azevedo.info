@@ -74,7 +74,11 @@ layout: default
 		<h5>{{ s.subtitle }}</h5>
 	</aside>
 	<article class="span9 borderleft par_el secpost">
+{%- if s.anchor == "students" %}
+{% include students.html %}
+{%- else %}
 {{ s.content | markdownify }}
+{%- endif %}
 	</article>
 </section>
 {%- endfor %}

@@ -1,0 +1,83 @@
+# Students and researchers supervised.
+# Groups are shown in this order. Each person: name, period, topic,
+# optional: at (institution), role (main supervisor / co-supervisor), url, now (where they went).
+
+groups:
+  - title: Current PhD students
+    people:
+      - {name: Ilyas Tiouassiouine-Maes, period: 2026 — present, at: DTU, role: co-supervisor, topic: Machine learning for scenario discovery in complex urban systems}
+      - {name: Junbo Xia, period: 2025 — present, at: DTU, role: main supervisor, topic: Understanding mobility cultures across Europe using machine learning and big data}
+      - {name: Loïs M. Jackson, period: 2025 — present, at: DTU, role: co-supervisor, topic: "Equal Roads: gender perspectives on road safety of vulnerable users in LMIC"}
+      - {name: Julia A. Guggenberger, period: 2024 — present, at: DTU, role: main supervisor, topic: "The Green Token: digital tradable credits for sustainable personal mobility"}
+      - {name: Daniel Domínguez, period: 2024 — present, at: DTU, role: co-supervisor, topic: "Quantra: quantum computing for transport applications"}
+      - {name: Francisco Madaleno, period: 2024 — present, at: DTU, role: co-supervisor, topic: Active learning causal discovery on simulators}
+      - {name: Noam Katzir, period: 2024 — present, at: Technion, role: co-supervisor, topic: "Mobility-as-a-Service: how can emerging transport technologies increase mobility inclusiveness?"}
+      - {name: Dang Viet Nguyen, period: 2023 — present, at: DTU, role: co-supervisor, topic: Proactive traffic control through AI and big data}
+      - {name: Xiaoyi Wu, period: 2023 — present, at: DTU, role: main supervisor, topic: Simulation and machine learning for the next generation of public transportation}
+      - {name: Marta Conceição, period: 2022 — present, at: University of Lisbon, role: co-supervisor, topic: The impact of stress on decision-making and travel behaviour}
+      - {name: Lampros Yfantis, period: 2019 — present, at: University College London, role: co-supervisor, topic: Modelling and simulation of a Mobility-as-a-Service system integrating autonomous mobility on demand and public transport}
+
+  - title: Current postdocs
+    people:
+      - {name: Shadi Haj-Yahia, period: 2026 — present, at: DTU, role: main supervisor}
+      - {name: Aditya Paul, period: 2026 — present, at: DTU, role: main supervisor}
+
+  - title: PhD alumni
+    people:
+      - {name: Silke Kaiser, period: 2023 — 2026, at: Hertie School Berlin, role: co-supervisor, topic: Understanding mobility data using machine learning}
+      - {name: Lorena Torres Lahoz, period: 2022 — 2025, at: DTU, role: main supervisor, topic: Machine learning for scenario discovery in emotional and behavioural modelling}
+      - {name: Miguel Costa, period: 2020 — 2024, at: University of Lisbon, role: co-supervisor, topic: Objective and subjective safety mapping for urban cyclists}
+      - {name: Christoffer Riis, period: 2020 — 2024, at: DTU, role: co-supervisor, topic: Bayesian machine learning for simulation metamodelling}
+      - {name: Ioanna Arkoudi, period: 2019 — 2024, at: DTU, role: co-supervisor, topic: Embedding representations for discrete choice and travel demand models}
+      - {name: Renming Liu, period: 2019 — 2023, at: DTU, role: main supervisor, topic: Design, optimization and simulation of tradable mobility credits}
+      - {name: Ana Martins, period: 2018 — 2023, at: University of Lisbon, role: co-supervisor, topic: Peer-to-peer autonomous car-sharing}
+
+  - title: Postdoc alumni
+    people:
+      - {name: Santa Maiti, period: 2022 — 2023, at: TUM, role: co-supervisor}
+      - {name: Georges Sfeir, period: 2021 — 2023, at: DTU, role: main supervisor}
+      - {name: Mayara Monteiro, period: 2020 — 2023, at: DTU, role: main supervisor}
+      - {name: Arun Akkinepally, period: 2017 — 2018, at: MIT, role: co-supervisor}
+      - {name: Kyungsoo Jeong, period: 2017 — 2018, at: MIT, role: co-supervisor}
+      - {name: Jimi Oke, period: 2016 — 2018, at: MIT, role: co-supervisor}
+      - {name: Andrea Araldo, period: 2016 — 2018, at: MIT, role: co-supervisor}
+      - {name: Simon Oh, period: 2016 — 2017, at: SMART, role: co-supervisor}
+
+# MSc theses: shown as a compact list
+msc:
+  - "2026 — Emmanouil Loukaidis (DTU). Human dynamics in daily life: data-driven insights into stress, activity and behavioral planning"
+  - "2026 — Eleni Papageorgiou (DTU). The impact of stress on daily activity patterns: a behavioral modeling approach using wearable and mobility data"
+  - "2026 — Matteo Piccagnoni (DTU). Spatial prediction of pedestrian stress levels in Copenhagen using environmental features and machine learning"
+  - "2026 — Oscar L. Larsen and San H. Karem (DTU). Perceived safety and pedestrian route choice at public transport stations: modelling and simulation"
+  - "2026 — Mads Werngreen-Nielsen (DTU). GPS-based analysis of truck traffic in Denmark"
+  - "2026 — Silvia Formiga (UPC, at DTU). Evaluation of sustainable mobility in the Rudersdal Municipality"
+  - "2025 — Pietro Giardina (DTU). Reverse ADL-Vickrey: inferring scheduling preferences based on congestion and choice data"
+  - "2025 — Garance Dubuisson (DTU). Investigating urban morphology's impact on noise levels: Copenhagen and Paris"
+  - "2024 — Elysia Gao (DTU). Predicting emotional responses in urban environments: a relational graph convolutional variational autoencoder model"
+  - "2024 — Line Heide (DTU). Exploring generative modelling for neighbourhood generation"
+  - "2024 — Anne Sophie H. Hansen (DTU). Daily stress patterns from activity and travel patterns exploring general purpose transformers"
+  - "2024 — Davide Dolente (DTU). Performance evaluation and calibration of agent-based transportation models"
+  - "2024 — Sigridur T. Halldorsdottir and Luis G. Pieschel (DTU). Synthetic population generation using diffusion models: a case study in Denmark"
+  - "2024 — Hildur M. Gunnarsdóttir and Pálína K. Guðmundsdóttir (DTU). Adaptive personalized congestion pricing using multi-objective reinforcement learning"
+  - "2023 — Dimitrios Zerzis (DTU). Calibration of activity-based models using Bayesian optimization"
+  - "2023 — Iliana Dritsa (DTU). Analysis of railway delay patterns and its impact on passenger behavior"
+  - "2023 — Alexandre Bernard–Michinov (DTU). Exploring Bayesian optimisation for scenario discovery in complex mobility simulation"
+  - "2023 — Frederik Ommundsen (DTU). Analysis of mental health and urban data: the Greater Copenhagen Area"
+  - "2023 — Alexandre Muchinski (DTU). Integration of UI and data visualization of individual mobility data from complex simulations for policy insights"
+  - "2023 — Guðrún Guðnadóttir and Hildur L. Jónsdóttir (DTU). Data exploration, reliability and simulation of travel in the public transportation network"
+  - "2023 — Þórður Örn Stefánsson (DTU). Exploring the effects of activity patterns and urban environment on people's emotional states"
+  - "2023 — Anders D. L. Lassen (DTU). Reinforcement learning for adaptive congestion pricing"
+  - "2023 — Dimitrios Argyros (DTU). Simulation and assessment of congestion pricing control through machine learning"
+  - "2022 — Lorena Lahoz (DTU). Attitudes and latent class choice models using machine learning: an application in car-sharing"
+  - "2022 — Lukas Schinzel (DTU). Exploring advanced visualization for microscopic mobility insights"
+  - "2021 — Kleio Milia and Magnus Duus Hedengran (DTU). Smart parking: forecasting cruising time using big data"
+  - "2021 — Ntaniel Ntovom (DTU). Electric vehicle charging location optimization in the urban Danish context: a machine learning approach"
+  - "2021 — Joan Ventura Omella (DTU). Metamodel optimization for traffic simulation calibration"
+  - "2020 — Antonios Koutounidis (DTU). A travel and energy behaviour sensitive optimisation for charging of private EV fleets in Denmark"
+  - "2019 — Francisco P. Domínguez (DTU). Applying a multi-layer network model for multi-modal trip planning in MaaS"
+  - "2019 — Johannes Eckert (DTU). Exploring blockchain in user-centric emission trading systems for multi-modal mobility"
+  - "2018 — Isabel H. Viegas de Lima (MIT). The dynamics of activity-making and travel"
+  - "2018 — Yihang Sui (MIT). Scenario analyzer for real-time dynamic transportation assignment (DTA) systems"
+  - "2018 — Narindra Peaks (MIT). Smartphone interface for incentivized energy optimization system: FMS Advisor"
+  - "2017 — Kenneth Koh (MIT). Developing an integrated rail simulator for SimMobility"
+  - "2017 — Arjun Srinivasan (MIT). Leveraging smartphones to incentivize city-wide, energy efficient transportation"
